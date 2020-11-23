@@ -159,6 +159,18 @@ xkanal 1_13.Box01
 xkanal 1_12.Box01
 9lamphl on_45.Line38
 
+5, 100
+kominy02_03.Box08
+kominy02_02.Box08
+@HQvod01_01.vodojem
+kominy02_01.Box08
+kominy01_07.Box08
+kominy01_06.Box08
+kominy01_02.Box08
+kominy01_03.Box08
+kominy01_04.Box08
+kominy01_05.Box08
+
 
 back parking:
 5, 80
