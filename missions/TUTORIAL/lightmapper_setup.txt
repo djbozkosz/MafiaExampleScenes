@@ -268,3 +268,30 @@ bedn_s4_04.Box02
 xleseni_04.Box01
 xsud 01_03.Cylinder01
 xsud 01_02.Cylinder01
+
+
+skyscrapers:
+5, 150
+newdum1_01.newdum1
+4build63_00.4build63
+4build95_00.4build95
+4build108r_00.Box01
+4build93_00.Object01
+4build135_00.4build136
+4build135_00.4build135_
+4build125_00.4build125
+4build111_00.Box01
+4build131_03.4build131
+4build131_01.4build131
+4build131_00.4build131
+4build125_02.4build125
+4build138_01.4build138
+4mrak02v_00.Box01
+4build131_02.4build131
+4mrak01v_01.4mrak01
+4build128_00.4build128
+4build91_01.Box01
+4build91_00.Box01
+4build122_00.4build122
+3rad10_00.Line04
+%kino_00.Object01
