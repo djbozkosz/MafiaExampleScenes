@@ -212,6 +212,8 @@ plvrat01_01.Mesh02
 schody1_14.Box02
 schody1_13.Box02
 schody1_12.Box02
+9konstr3_05.Cylinder01
+placka1_06.Object01
 
 1, 80
 9trbmodr_00.Cylinder01
@@ -268,6 +270,16 @@ bedn_s4_04.Box02
 xleseni_04.Box01
 xsud 01_03.Cylinder01
 xsud 01_02.Cylinder01
+xsvetlo 02 on_00.Cylinder01
+xsud 01_42.Cylinder01
+xsud 01_41.Cylinder01
+xbedna 16_43.Box02
+xbedna 16_42.Box02
+xbedna 16_41.Box02
+xvozik_10.Box01
+pytle01_11.pyt01
+xvozik_10.Box02
+9konstr3c_06.Box07
 
 
 skyscrapers:
@@ -446,6 +458,7 @@ popel01_114.popel01
 dopravni7B_00.stozar
 zahon02_02.Object01
 xkanal 1_00.Box01
+9lamphl on_46.Line38
 
 
 behind cinema:
