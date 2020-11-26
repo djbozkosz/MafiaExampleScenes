@@ -710,3 +710,233 @@ emeth01_00.Box01
 9mark3b_02.Rectangle01
 bakery02_01.Box01
 9mark3_05.Rectangle01
+
+
+side streets:
+10, 100
+popel01_91.popel01
+popel01_92.popel01
+popel01_93.popel01
+lamp01o_29.stozar
+popel01_95.popel01
+popel01_94.popel01
+bedna01_41.Box01
+xbedna 02_07.bedna 02
+xbedna 02_07.Object02
+xbedna 02_07.Object01
+9lamphl on_24.Line38
+9lamphl on_23.Line38
+9lamphl on_25.Line38
+popel01_97.popel01
+popel01_96.popel01
+xbedna 04_18.bedna 04
+kos01_02.odpadky01
+9ker1_07.Object01
+dopravni8B_00.stozar
+xplechovka7_11.Box01
+xbarel 1_34.barel 1
+xplechovka7_10.Box01
+9lamphl on_26.Line38
+popel01_08.popel01
+9lamphl on_27.Line38
+9lamphl on_28.Line38
+bedna01_42.Box01
+bedna01_43.Box01
+bedn_s4_12.Box02
+bedna00_16.Box01
+xkybl 1_07.Cylinder01
+bedn_s3_20.Box02
+xkoste 1_04.Box01
+bedn_s2_11.Box02
+xplechovka1_13.Cylinder02
+xleseni_27.Box01
+pure02_00.Box01
+9kolo1_17.kolo
+9kolo1_19.kolo
+9kolo1_18.kolo
+9kolo1_16.kolo
+xsvetlo 01 on_06.Cylinder01
+popel01_98.popel01
+popel01_99.popel01
+lamp01o_45.stozar
+9lamphl on_29.Line38
+xleseni_26.Box01
+9lamphl on_30.Line38
+9lamphl on_31.Line38
+popel01_101.popel01
+popel01_103.popel01
+popel01_102.popel01
+xbedna 15_46.Box02
+xbedna 15_45.Box02
+s_barevny_01.Object01
+s_velky_06.Box07
+s_velky_05.Box07
+s_velky_04.Box07
+lamp01o_44.stozar
+paleta01_25.paleta01
+xplechovka1_14.Cylinder02
+paleta01_26.paleta01
+bedna00_17.Box01
+bedna00_18.Box01
+popel01_100.popel01
+9lamphl on_32.Line38
+xsud 01_23.Cylinder01
+xsud 01_22.Cylinder01
+bedn_s3_18.Box02
+bedn_s3_19.Box02
+xplechovka1_12.Cylinder02
+@HQponk1_05.Box03
+xplechovka4_12.Cylinder02
+bedn_s1_18.bedna 02
+bedn_s1_17.bedna 02
+xsvetlo 01 on_07.Cylinder01
+helada02_02.Box01
+9mail_04.mbox
+dopravni8B_01.stozar
+dopravni9B_01.Cylinder01
+vylep02_01.vylep01
+9ker1_06.Object01
+popel01_06.popel01
+popel01_07.popel01
+bedn_s1_19.bedna 02
+s_velky_07.Box07
+9lamphl on_33.Line38
+66stn1_05.Box01
+66stn3_05.Box11
+xkybl 2_04.Cylinder01
+xprkna 3_11.Box21
+lamp01o_41.stozar
+s_velky_08.Box07
+9lamphl on_34.Line38
+xsvetlo 01 on_08.Cylinder01
+popel01_104.popel01
+popel01_105.popel01
+xbedna 15_47.Box02
+xbedna 15_48.Box02
+xplechovka4_13.Cylinder02
+xbedna 02_08.Object02
+xbedna 02_08.bedna 02
+xbedna 02_08.Object01
+xplechovka3_10.Cylinder02
+xplechovka3_11.Cylinder02
+xleseni_28.Box01
+bedn_s2_14.Box02
+bedn_s2_13.Box02
+osatka01_04.osatka01
+bedn_s2_12.Box02
+xzebrik_08.Box02
+leseni2_08.Box03
+leseni2_08.Box08
+leseni2_08.Box06
+leseni2_08.Box05
+leseni2_08.Box16
+leseni2_08.Box07
+leseni2_08.Box04
+leseni2_08.Box09
+leseni2_08.Box02
+leseni2_08.Box10
+leseni2_08.Box17
+leseni2_08.Box01
+xbarel 4_14.barel 1
+xbarel 4_15.barel 1
+leseni2_08.Box15
+paleta01_27.paleta01
+xsud 01_24.Cylinder01
+xsud 01_25.Cylinder01
+s_velky_01.Box07
+9lamphl on_35.Line38
+9lamphl on_36.Line38
+lamp01o_43.stozar
+9lamphl on_37.Line38
+9lamphl on_38.Line38
+xbedna 15_49.Box02
+s_velky_03.Box07
+9lamphl on_39.Line38
+xbedna 04_19.bedna 04
+popel01_106.popel01
+popel01_107.popel01
+xbarel 1_35.barel 1
+xvozik_06.Box02
+xvozik_06.Box01
+xbedna 14_31.Box02
+lamp01o_42.stozar
+s_velky_09.Box07
+9lamphl on_40.Line38
+bedna00_21.Box01
+bedna00_20.Box01
+bedna00_19.Box01
+xsvetlo 01 on_09.Cylinder01
+xsvetlo 03 on_12.Box01
+xsvetlo 03 on_12.Box02
+xsvetlo 03 on_13.Box01
+xsvetlo 03 on_13.Box02
+xsvetlo 03 on_14.Box01
+xsvetlo 03 on_14.Box02
+
+5, 100
+9mark3_07.Rectangle01
+9mark3_06.Rectangle01
+bakery02_03.Box01
+maclac02_03.Box01
+s_velky_05.Object02
+s_velky_06.Object02
+s_velky_04.Object02
+s_barevny_01.Object02
+schody1_44.Box02
+schody1_45.Box02
+schody1_46.Box02
+s_velky_08.Object02
+s_velky_09.Object02
+s_velky_01.Object02
+beer02_02.Box01
+hires02_00.Box01
+xzaclona 3_17.Box02
+xzaclona 3_16.Box02
+bigboy02_01.Box01
+s_velky_07.Object02
+s_velky_03.Object02
+xzaclona 3_15.Box02
+schody1_52.Box02
+schody1_51.Box02
+schody1_50.Box02
+schody1_49.Box02
+schody1_48.Box02
+schody1_47.Box02
+4build98_00.Mesh01
+4build55_02.4build55
+4build55_01.4build55
+4build55_00.4build55
+schody1_47.Box02
+schody1_48.Box02
+schody1_49.Box02
+schody1_50.Box02
+schody1_51.Box02
+schody1_52.Box02
+4build98_01.Mesh01
+4build113_00.4build113
+4build40_02.4build40
+4build81_00.4build81
+4build56z_01.4build56
+4build56z_02.4build56
+4build43_00.4build43
+4build67_00.4build67
+4build65_00.4build65
+4build65_01.4build65
+4build68_00.Mesh02
+4build67_01.4build67
+%radovk5_02.radovka5
+%radovk5_01.radovka5
+tbuild18_00.tbuild17
+4build152_03.4build152
+4build152_04.4build152
+4build152_05.4build152
+4build81_01.4build81
+4build56_01.Object01
+4build106_00.Box04
+4build111_01.Box01
+kominy01_25.Box08
+kominy01_13.Box08
+xkanal 1_09.Box01
+xkanal 1_10.Box01
+xkanal 1_08.Box01
+xkanal 1_06.Box01
