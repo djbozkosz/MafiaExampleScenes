@@ -50,7 +50,6 @@ xv trubka8_03.Cylinder02
 xv trubka8_02.Cylinder02
 xv trubka8_01.Cylinder02
 lamp01o_00.stozar
-
 newdum1_00.newdum1
 sgmt06_00.@sgmt06
 sgmt03_01.@sgmt03
@@ -58,6 +57,8 @@ sgmt03_00.@sgmt03
 4build77r_04.4build77r
 4build77r_02.4build77r
 4build77r_03.4build77r
+road13
+road13_
 
 20, 150
 xv kachle1_00.Box06
@@ -308,6 +309,11 @@ newdum1_01.newdum1
 3rad10_00.Line04
 %kino_00.Object01
 
+road06b
+road06c
+road06
+road06d
+
 s_maly_22.Object01
 s_maly_23.Object01
 s_maly_24.Object01
@@ -521,6 +527,7 @@ xsvetlo 03 on_15.Box01
 9mark3b_03.Rectangle01
 9mark3_08.Rectangle01
 9mark1b_02.Line01
+9lamphl on_41.Line38
 
 5, 100
 kominy02_00.Box08
@@ -610,6 +617,12 @@ s_maly_21.Object01
 s_velky_02.Object02
 s_maly_03.Object01
 s_maly_18.Object01
+cross02
+road08
+rail00
+grass01
+grass00
+road02
 
 
 side market
@@ -710,6 +723,8 @@ emeth01_00.Box01
 9mark3b_02.Rectangle01
 bakery02_01.Box01
 9mark3_05.Rectangle01
+pavement02
+railing02
 
 
 side streets:
@@ -940,3 +955,37 @@ xkanal 1_09.Box01
 xkanal 1_10.Box01
 xkanal 1_08.Box01
 xkanal 1_06.Box01
+schody1_57.Box02
+schody1_56.Box02
+schody1_55.Box02
+schody1_54.Box02
+schody1_53.Box02
+kominy01_14.Box08
+kominy01_15.Box08
+kominy02_04.Box08
+kominy02_09.Box08
+4build51_00.4build51
+4build56_00.Object01
+4build63_01.4build63
+4build154_00.4build154
+4build154_01.4build154
+4build38z_01.4build38z
+%radovk5_03.radovka5
+4build62_01.4build62
+4build62_00.4build62
+4build66_01.4build66
+4build66_00.4build66
+%radovk5_00.radovka5
+4build152_02.4build152
+tbuild07_01.tbuild07
+4build56z_00.4build56
+newdum7_01.newdum7
+4old06_00.Mesh01
+4build70_01.4build70
+k_dum02_04.k_dum02
+k_dum02_03.k_dum02
+cross01
+road03b
+road03
+road04b
+road04
