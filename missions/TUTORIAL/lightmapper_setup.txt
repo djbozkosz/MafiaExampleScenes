@@ -1,5 +1,16 @@
-parking:
+grass
+bg color #304625, use amb too
+1, 170
+grass00_
 
+1, 100
+grass02_
+
+1, 100, dir mul 0.1
+grass03_
+
+
+parking
 5, 150
 plotdrev4_plak_05.Box01
 @drplot3_29.Box01
@@ -173,7 +184,7 @@ kominy01_04.Box08
 kominy01_05.Box08
 
 
-back parking:
+back parking
 5, 80
 0prad_06.Rectangle02
 0prad_05.Rectangle02
@@ -215,6 +226,7 @@ schody1_13.Box02
 schody1_12.Box02
 9konstr3_05.Cylinder01
 placka1_06.Object01
+xv spina2_01.!!flek17
 
 1, 80
 9trbmodr_00.Cylinder01
@@ -283,7 +295,7 @@ xvozik_10.Box02
 9konstr3c_06.Box07
 
 
-skyscrapers:
+skyscrapers
 5, 150
 newdum1_01.newdum1
 4build63_00.4build63
@@ -451,6 +463,9 @@ s_maly_26.Box04
 s_maly_32.Box04
 s_maly_31.Box04
 s_maly_30.Box04
+xkanal 1_18.Box01
+xkanal 1_19.Box01
+kominy02_14.Box08
 
 10, 150
 xbedna 15_52.Box02
@@ -467,7 +482,7 @@ xkanal 1_00.Box01
 9lamphl on_46.Line38
 
 
-behind cinema:
+behind cinema
 10, 100
 norton02_01.Box01
 xsvetlo 01 on_10.Cylinder01
@@ -714,6 +729,10 @@ xzidle 05_81.Box01
 xzidle 05_80.Box01
 xbedna 02_04.bedna 02
 xbedna 02_03.bedna 02
+xbedna 02_04.Object02
+xbedna 02_04.Object01
+xbedna 02_03.Object02
+xbedna 02_03.Object01
 
 5, 100
 orange02_01.Box01
@@ -725,9 +744,14 @@ bakery02_01.Box01
 9mark3_05.Rectangle01
 pavement02
 railing02
+s_maly_04.Object01
+s_maly_15.Object01
+kominy01_24.Box08
+kominy02_11.Box08
+kominy02_10.Box08
 
 
-side streets:
+side streets
 10, 100
 popel01_91.popel01
 popel01_92.popel01
@@ -989,3 +1013,2200 @@ road03b
 road03
 road04b
 road04
+
+
+post parking
+10, 100
+xbarel 1_31.barel 1
+xbarel 1_30.barel 1
+xplechovka2_00.Cylinder02
+xbedna 04_12.bedna 04
+xkanal 1_07.Box01
+xbedna 16_27.Box02
+xbedna 16_28.Box02
+xsud 01_17.Cylinder01
+xsud 01_18.Cylinder01
+xprkna 2_02.Box01
+xprkna 2_02.Box02
+xprkna 2_02.Box03
+xprkna 2_02.Box04
+tutbedna_03.Box01
+xplechovka7_00.Box01
+xplechovka5_00.Box01
+xplechovka5_01.Box01
+xbedna 02_02.bedna 02
+xbedna 02_02.Object02
+xbedna 02_02.Object01
+xvozik_05.Box02
+xvozik_05.Box01
+xsud 01_19.Cylinder01
+xbedna 14_28.Box02
+xbedna 14_27.Box02
+xbedna 14_26.Box02
+9lamphl on_22.Line38
+xsvetlo 01 on_05.Cylinder01
+popel01_143.popel01
+popel01_88.popel01
+popel01_87.popel01
+bedna00_13.Box01
+bedna00_14.Box01
+bedna00_12.Box01
+9ker1_08.Object01
+popel01_09.popel01
+popel01_11.popel01
+popel01_10.popel01
+xleseni_22.Box01
+bedn_s4_08.Box02
+bedn_s4_09.Box02
+xplechovka3_00.Cylinder02
+bedn_s1_13.bedna 02
+bedn_s1_15.bedna 02
+bedn_s1_14.bedna 02
+xplechovka1_01.Cylinder02
+xplechovka1_00.Cylinder02
+bedn_s3_07.Box02
+bedn_s3_08.Box02
+xplechovka7_02.Box01
+9petrolejka_00.Line01
+9ker1_09.Object01
+9ker1_10.Object01
+xprkna 3_09.Box21
+9zebriny_03.zebriny
+xbarel 1_28.barel 1
+xbarel 1_29.barel 1
+xplechovka3_02.Cylinder02
+xplechovka3_01.Cylinder02
+bedn_s2_08.Box02
+bedn_s2_09.Box02
+xbedna 04_14.bedna 04
+xbedna 04_13.bedna 04
+xleseni_23.Box01
+xbedna 15_40.Box02
+xbedna 15_41.Box02
+xbedna 15_42.Box02
+9lamphl on_21.Line38
+xkybl 1_06.Cylinder01
+xkoste 1_03.Box01
+popel01_90.popel01
+popel01_89.popel01
+xzebrik_07.Box02
+xvozik_04.Box01
+xvozik_04.Box02
+xbedna 14_30.Box02
+xbedna 14_29.Box02
+bedn_s2_10.Box02
+bedn_s3_09.Box02
+@HQponk1_04.Box03
+xplechovka7_01.Box01
+xplechovka4_00.Cylinder02
+xplechovka1_02.Cylinder02
+bedn_s4_10.Box02
+paleta01_13.paleta01
+paleta01_12.paleta01
+paleta01_11.paleta01
+pytle01_07.pyt01
+xplechovka3_03.Cylinder02
+xbarel 1_32.barel 1
+leseni_01.Box09
+leseni_01.Box07
+leseni_01.Box04
+leseni_01.Box08
+leseni_01.Box10
+leseni_01.Box06
+leseni_01.Box05
+leseni_01.Box11
+leseni_01.Box13
+leseni_01.Box12
+leseni_01.Box14
+leseni_01.Box01
+leseni_01.Box17
+leseni_01.Box02
+leseni_01.Box15
+leseni_01.Box16
+leseni_01.Box03
+zahon02_00.Object01
+xplechovka3_07.Cylinder02
+xsvetlolof 02_02.Cylinder01
+xbarel 4_11.barel 1
+xbarel 3_01.barel 1
+xbarel 3_02.barel 1
+xleseni_24.Box01
+bedn_s3_11.Box02
+bedn_s3_12.Box02
+xbedna 02_01.Object01
+xbedna 02_01.Object02
+xbedna 02_01.bedna 02
+bedn_s3_10.Box02
+xplechovka4_09.Cylinder02
+xplechovka4_08.Cylinder02
+xplechovka5_06.Box01
+xplechovka5_08.Box01
+xplechovka5_07.Box01
+s_maly_16.Box04
+s_maly_17.Box04
+drvrat01o_00.Object03
+drvrat01o_00.Object02
+drvrat01o_00.Object01
+drvrat01o_00.vrata01
+zampr1_02.Mesh01
+zampr1_03.Mesh01
+dopravni5B_02.stozar
+xbarel 1_04.barel 1
+xbarel 1_05.barel 1
+xbedna 04_17.bedna 04
+xplechovka1_08.Cylinder02
+9ker1_12.Object01
+xbedna 02_06.bedna 02
+xbedna 02_06.Object02
+xbedna 02_06.Object01
+xbedna 06_04.Box01
+xbedna 02_05.Object01
+xbedna 02_05.Object02
+xbedna 02_05.bedna 02
+xbedna 04_15.bedna 04
+xplechovka1_07.Cylinder02
+xbedna 04_16.bedna 04
+bedn_s1_16.bedna 02
+xplechovka3_09.Cylinder02
+xplechovka1_11.Cylinder02
+xplechovka1_09.Cylinder02
+xplechovka1_10.Cylinder02
+xplechovka3_08.Cylinder02
+xplechovka5_09.Box01
+xplechovka5_11.Box01
+xplechovka5_10.Box01
+xleseni_25.Box01
+xplechovka8_06.Box01
+xplechovka8_07.Box01
+xplechovka2_08.Cylinder02
+xplechovka2_09.Cylinder02
+xplechovka4_10.Cylinder02
+xplechovka4_11.Cylinder02
+xplechovka7_09.Box01
+xplechovka7_08.Box01
+xsud 01_20.Cylinder01
+xsud 01_21.Cylinder01
+9kolo1_13.kolo
+9kolo1_15.kolo
+9kolo1_12.kolo
+9kolo1_14.kolo
+paleta01_14.paleta01
+paleta01_15.paleta01
+paleta01_19.paleta01
+paleta01_23.paleta01
+xbedna 15_43.Box02
+xbedna 15_44.Box02
+paleta01_18.paleta01
+paleta01_17.paleta01
+paleta01_16.paleta01
+bedna01_32.Box01
+bedna01_37.Box01
+bedna01_38.Box01
+bedna01_33.Box01
+bedna01_39.Box01
+bedna01_35.Box01
+bedna01_34.Box01
+bedn_s3_17.Box02
+bedn_s3_16.Box02
+bedna01_40.Box01
+bedna01_36.Box01
+bedn_s3_15.Box02
+bedn_s3_13.Box02
+bedn_s3_14.Box02
+paleta01_21.paleta01
+paleta01_20.paleta01
+9ker1_13.Object01
+paleta01_24.paleta01
+paleta01_22.paleta01
+xbarel 2_13.barel 1
+xbarel 1_33.barel 1
+xprkna 3_10.Box21
+bedna00_15.Box01
+xbarel 4_13.barel 1
+xbarel 4_12.barel 1
+popel01_86.popel01
+popel01_85.popel01
+popel01_84.popel01
+9ker1_11.Object01
+xbedna 04_10.bedna 04
+paleta01_10.paleta01
+xbedna 04_11.bedna 04
+xbedna 16_24.Box02
+xbedna 16_23.Box02
+xbedna 16_26.Box02
+xbedna 16_25.Box02
+xbedna 16_22.Box02
+xsvetlo 02 on_05.Cylinder01
+xsvetlo 02 on_04.Cylinder01
+xbedna 14_23.Box02
+xbedna 14_22.Box02
+xbedna 14_21.Box02
+xbedna 14_24.Box02
+xbedna 14_25.Box02
+xbarel 3_03.barel 1
+xbarel 2_05.barel 1
+xbedna 15_36.Box02
+xbedna 15_35.Box02
+xbedna 15_34.Box02
+xbedna 15_33.Box02
+xbedna 15_32.Box02
+xbedna 15_37.Box02
+popel01_13.popel01
+popel01_12.popel01
+bedna01_07.Box01
+bedna01_08.Box01
+bedna01_09.Box01
+xbarel 1_26.barel 1
+xbarel 1_27.barel 1
+xplechovka5_04.Box01
+xplechovka5_05.Box01
+bedna02_15.Box01
+bedna02_14.Box01
+bedna02_18.Box01
+bedna02_17.Box01
+bedna02_13.Box01
+bedna02_12.Box01
+bedna02_16.Box01
+9mail_03.mbox
+dopravni5B_03.stozar
+PHbox01_02.PHbox01
+kos01_04.odpadky01
+xsvetlo 01 on_04.Cylinder01
+dopravni9B_03.Cylinder01
+bedn_s1_11.bedna 02
+bedn_s1_12.bedna 02
+@HQponk1_03.Box03
+bedn_s2_07.Box02
+xplechovka4_01.Cylinder02
+xplechovka3_04.Cylinder02
+bedn_s1_10.bedna 02
+bedna02_19.Box01
+bedna02_20.Box01
+9lamphl on_20.Line38
+bedna01_00.Box01
+bedna01_01.Box01
+bedna01_02.Box01
+popel01_79.popel01
+popel01_80.popel01
+popel01_81.popel01
+xznacka 1_00.Cylinder01
+zplot13i_00.Line03
+zplot01_01.Line01
+zplot01_00.Line01
+xsvetlo 01 on_00.Cylinder01
+zplot01_02.Line01
+zplot13i_01.Line03
+zplot01_03.Line01
+zplot13i_02.Line03
+
+5, 100
+schody1_43.Box02
+schody1_42.Box02
+plot06_00.Box03
+@drplot3_00.Box01
+@drplot3_01.Box01
+plotdrev4_plak_00.Rectangle0
+plotdrev4_plak_00.Box01
+@drplot3_02.Box01
+plotdrev4_00.Box01
+@drplot3_03.Box01
+@bouda06_00.Box02
+@drplot3_06.Box01
+@drplot3_04.Box01
+@drplot3_05.Box01
+pltBrec1_01.Rectangle0
+pltBrec1_02.Rectangle0
+s_velky_00.Object02
+pltBrec1_00.Rectangle0
+s_maly_17.Object01
+s_maly_16.Object01
+xzaclona 3_10.Box02
+xzaclona 3_09.Box02
+9prkn5_05.Box10
+s_velky_00.Box07
+xzaclona 5_01.Box02
+xzaclona 5_00.Box02
+@prist05_07.Box06
+schody1_32.Box02
+schody1_33.Box02
+schody1_34.Box02
+orange02_02.Box01
+xdvere 2_01.Box05
+xdvere 2_00.Box05
+schody1_41.Box02
+schody1_40.Box02
+schody1_39.Box02
+schody1_38.Box02
+lamp01o_27.stozar
+lamp01o_26.stozar
+xv spina3_17.Rectangle72
+xv spina3_16.Rectangle72
+kominy01_23.Box08
+kominy01_22.Box08
+
+100, 100
+xsvetlolof 02_02.zarovka
+
+
+second street
+10, 100
+xsvetlo 02 on_08.Cylinder01
+xbedna 04_09.bedna 04
+9lamphl on_19.Line38
+xbedna 16_20.Box02
+xbedna 16_21.Box02
+9stan2_03.Box01
+66stn8_03.Box01
+xbarel 4_10.barel 1
+xbarel 4_09.barel 1
+xsvetlo 01 on_03.Cylinder01
+popel01_14.popel01
+popel01_15.popel01
+9lamphl on_16.Line38
+sud01_11.sud01
+sud01_10.sud01
+sud01_09.sud01
+paleta01_08.paleta01
+paleta01_09.paleta01
+xleseni_21.Box01
+bedn_s3_05.Box02
+bedn_s3_06.Box02
+bedn_s1_08.bedna 02
+bedn_s1_07.bedna 02
+xkybl 1_05.Cylinder01
+xkybl 2_03.Cylinder01
+bedn_s1_09.bedna 02
+xzebrik_06.Box02
+popel01_77.popel01
+popel01_76.popel01
+popel01_78.popel01
+xkoste 1_02.Box01
+bedn_s4_07.Box02
+xzidle 05_48.Box01
+dopravni8B_02.stozar
+dopravni9B_04.Cylinder01
+kos01_05.odpadky01
+PHbox01_01.PHbox01
+zabradl_13.Box01
+zabradl_12.Box01
+zabradl_11.Box01
+xkanal 1_04.Box01
+xkanal 1_05.Box01
+9mail_02.mbox
+popel01_75.popel01
+popel01_74.popel01
+9kolo1_08.kolo
+9kolo1_09.kolo
+9kolo1_10.kolo
+9kolo1_11.kolo
+xsvetlo 01 on_02.Cylinder01
+bedna00_11.Box01
+zabradl_22.Box01
+9lamphl on_17.Line38
+xbarel 1_25.barel 1
+popel01_73.popel01
+popel01_16.popel01
+9ker1_14.Object01
+look02_03.Box01
+bedna01_30.Box01
+bedna01_29.Box01
+bedna01_31.Box01
+popel01_83.popel01
+popel01_82.popel01
+9lamphl on_18.Line38
+
+5, 100
+schody1_28.Box02
+schody1_27.Box02
+schody1_26.Box02
+lamp01o_23.stozar
+trolley_corner00
+lamp01o_09.stozar
+schody1_29.Box02
+schody1_30.Box02
+schody1_31.Box02
+lamp01o_25.stozar
+parking04_00.Box01
+lamp01o_24.stozar
+schody1_35.Box02
+schody1_36.Box02
+schody1_37.Box02
+american_00.Box01
+@HQvod01_02.vodojem
+beer02_01.Box01
+maclac02_02.Box01
+kominy02_13.Box08
+kominy02_12.Box08
+kominy01_26.Box08
+kominy01_16.Box08
+kominy01_17.Box08
+kominy01_18.Box08
+goodyear02_00.Box01
+
+
+main cross side
+5, 100
+lamp01o_22.stozar
+lamp01o_21.stozar
+lamp01o_20.stozar
+lamp01o_19.stozar
+lamp01o_18.stozar
+lamp01o_17.stozar
+lamp01o_16.stozar
+lamp01o_15.stozar
+lamp01o_14.stozar
+lamp01o_13.stozar
+lamp01o_12.stozar
+lamp01o_11.stozar
+lamp01o_10.stozar
+schody1_25.Box02
+schody1_23.Box02
+schody1_24.Box02
+plot06_01.Box03
+@drplot3_46.Box01
+plotdrev4_33.Box01
+@drplot3_42.Box01
+plotdrev4_34.Box01
+@drplot3_43.Box01
+plotdrev4_35.Box01
+@drplot3_44.Box01
+plotdrev4_36.Box01
+@drplot3_45.Box01
+plotdrev4_27.Box01
+@drplot3_36.Box01
+plotdrev4_28.Box01
+@drplot3_37.Box01
+plotdrev4_29.Box01
+@drplot3_38.Box01
+plotdrev4_30.Box01
+@drplot3_39.Box01
+plotdrev4_31.Box01
+@drplot3_40.Box01
+plotdrev4_32.Box01
+@drplot3_41.Box01
+schody1_22.Box02
+schody1_21.Box02
+@prist04_03.Box05
+lamp01o_08.stozar
+
+
+10, 100
+drvrat01o_02.Object02
+drvrat01o_02.Object01
+drvrat01o_02.Object03
+drvrat01o_02.vrata01
+paleta01_07.paleta01
+bedna02_10.Box01
+bedna02_11.Box01
+popel01_71.popel01
+popel01_72.popel01
+xbarel 1_37.barel 1
+xbarel 1_36.barel 1
+plvrat01_02.Mesh02
+popel01_17.popel01
+popel01_18.popel01
+plvrat01_02.vrata01
+xbarel 1_06.barel 1
+paleta01_06.paleta01
+xplechovka2_06.Cylinder02
+xplechovka2_05.Cylinder02
+xplechovka2_07.Cylinder02
+xsud 01_16.Cylinder01
+xsud 01_15.Cylinder01
+xleseni_20.Box01
+xbarel 1_23.barel 1
+xbarel 1_24.barel 1
+xprkna 3_08.Box21
+xbedna 14_19.Box02
+xbedna 14_20.Box02
+xbedna 14_17.Box02
+xbedna 14_18.Box02
+popel01_69.popel01
+popel01_70.popel01
+popel01_68.popel01
+xbedna 15_30.Box02
+xbedna 15_31.Box02
+dopravni8B_03.stozar
+alarm01_02.alarm01
+alarm01_02.Box05
+alarm01_02.Box03
+popel01_60.popel01
+popel01_62.popel01
+popel01_61.popel01
+kos01_06.odpadky01
+xkanal 1_03.Box01
+9lamphl on_15.Line38
+
+
+restaurants
+10, 100
+helada02_01.Box01
+xkvet02_01.Line17
+s_maly_05.Box04
+xbedna 04_05.bedna 04
+popel01_51.popel01
+popel01_49.popel01
+popel01_50.popel01
+xbedna 04_06.bedna 04
+odpadko1_00.Mesh05
+xkvet02_02.Line17
+s_maly_06.Box04
+odpadko1_01.Mesh05
+9slunec1_01.Object01
+9slunec1_01.NGon01
+xstul19_00.Object01
+xzidle 05_02.Box01
+xzidle 05_03.Box01
+xzidle 05_01.Box01
+xzidle 05_00.Box01
+9slunec1_02.Object01
+9slunec1_02.NGon01
+xstul19_01.Object01
+xstul19_01.Cylinder01
+xstul19_00.Cylinder01
+xzidle 05_06.Box01
+xzidle 05_07.Box01
+xzidle 05_04.Box01
+xzidle 05_05.Box01
+9slunec1_04.Object01
+9slunec1_04.NGon01
+9slunec1_03.Object01
+9slunec1_03.NGon01
+xstul19_02.Cylinder01
+xstul19_02.Object01
+xzidle 05_10.Box01
+xzidle 05_08.Box01
+xzidle 05_09.Box01
+xzidle 05_11.Box01
+xzidle 05_14.Box01
+xzidle 05_13.Box01
+xzidle 05_15.Box01
+xzidle 05_12.Box01
+xstul19_03.Cylinder01
+xstul19_03.Object01
+odpadko1_02.Mesh05
+xlavicka_00.@lav01
+xlavicka_01.@lav01
+xlavicka_02.@lav01
+odpadko1_03.Mesh05
+xlavicka_03.@lav01
+norton02_00.Box01
+9slunec1_05.Object01
+9slunec1_05.NGon01
+9vuz1_01.Box01
+9vuz1_01.Box04
+9vuz1_01.Box05
+9vuz1_01.Cylinder02
+9vuz1_01.Box03
+9vuz1_01.NGon01
+9vuz1_01.NGon03
+9vuz1_01.NGon02
+9vuz1_01.NGon04
+9vuz1_01.Cylinder01
+9vuz1_01.Box02
+66stn5_02.03
+9stan3_01.vzper03
+kos01_13.odpadky01
+xsud 01_07.Cylinder01
+xsud 01_06.Cylinder01
+9stan3_01.Rectangle04
+9stan3_01.Box03
+9stan3_01.Rectangle03
+9stan3_01.Rectangle02
+xzidle 05_16.Box01
+xstul20_00.stul_r01
+xzidle 05_17.Box01
+xzidle 05_19.Box01
+xstul20_01.stul_r01
+xzidle 05_18.Box01
+xsvetlo 03 on_01.Box01
+xsvetlo 03 on_01.Box02
+xsvetlo 03 on_00.Box01
+xsvetlo 03 on_00.Box02
+9palma_00.Object01
+9palma_00.Cylinder02
+9palma_00.Box02
+xsvetlo 03 on_02.Box01
+xsvetlo 03 on_02.Box02
+9palma_01.Box02
+9palma_01.Object01
+9palma_01.Cylinder02
+xsvetlo 03 on_03.Box02
+xsvetlo 03 on_03.Box01
+xzidle 05_20.Box01
+xstul20_02.stul_r01
+xzidle 05_21.Box01
+xzidle 05_22.Box01
+xstul20_03.stul_r01
+xzidle 05_23.Box01
+xsvetlo 03 on_04.Box01
+xsvetlo 03 on_04.Box02
+xsvetlo 03 on_05.Box02
+xsvetlo 03 on_05.Box01
+popel01_38.popel01
+popel01_37.popel01
+xleseni_05.Box01
+xkybl 2_01.Cylinder01
+bedn_s3_02.Box02
+bedn_s3_03.Box02
+bedn_s3_01.Box02
+dopravni9B_06.Cylinder01
+PHbox01_05.PHbox01
+s_maly_09.Box04
+xkvet02_05.Line17
+xkvet02_06.Line17
+xkvet02_07.Line17
+xkvet02_08.Line17
+xsvetlo 03 on_06.Box01
+xsvetlo 03 on_06.Box02
+xsvetlo 03 on_07.Box02
+xsvetlo 03 on_07.Box01
+odpadko1_04.Mesh05
+xlavicka_04.@lav01
+xlavicka_05.@lav01
+odpadko1_05.Mesh05
+9slunec3_03.Object01
+9slunec3_03.NGon01
+9slunec3_02.Object01
+9slunec3_02.NGon01
+9slunec3_01.Object01
+9slunec3_01.NGon01
+xzidle 05_34.Box01
+xzidle 05_35.Box01
+xstul20_09.stul_r01
+xzidle 05_33.Box01
+xzidle 05_32.Box01
+xstul20_08.stul_r01
+xzidle 05_30.Box01
+xzidle 05_31.Box01
+xstul20_07.stul_r01
+xstul20_06.stul_r01
+xzidle 05_28.Box01
+xzidle 05_29.Box01
+xzidle 05_26.Box01
+xzidle 05_27.Box01
+xstul20_05.stul_r01
+xstul20_04.stul_r01
+xzidle 05_24.Box01
+xzidle 05_25.Box01
+tutbedna_01.Box01
+xkvet02_04.Line17
+s_maly_08.Box04
+xkvet02_03.Line17
+s_maly_07.Box04
+xsvetlo 05on_00.Cylinder01
+xzidle 05_36.Box01
+xstul19_04.Cylinder01
+xzidle 05_37.Box01
+xzidle 05_39.Box01
+xzidle 05_38.Box01
+xsvetlo 05on_02.Cylinder01
+xsvetlo 05on_01.Cylinder01
+xzidle 05_40.Box01
+xzidle 05_41.Box01
+xstul19_05.Cylinder01
+xzidle 05_43.Box01
+xzidle 05_42.Box01
+xzidle 05_44.Box01
+xstul19_06.Cylinder01
+xzidle 05_46.Box01
+xzidle 05_47.Box01
+xzidle 05_45.Box01
+xstul19_05.Object01
+xstul19_06.Object01
+xstul19_04.Object01
+look02_01.Box01
+xsvetlo 03 on_08.Box01
+xsvetlo 03 on_08.Box02
+xsvetlo 03 on_09.Box01
+xsvetlo 03 on_09.Box02
+xsvetlo 03 on_10.Box01
+xsvetlo 03 on_10.Box02
+xsvetlo 03 on_11.Box01
+xsvetlo 03 on_11.Box02
+s_maly_10.Box04
+xkvet02_09.Line17
+odpadko1_06.Mesh05
+xlavicka_06.@lav01
+bedn_s4_11.Box02
+popel01_46.popel01
+popel01_47.popel01
+popel01_48.popel01
+xleseni_07.Box01
+xbedna 16_11.Box02
+xbedna 16_10.Box02
+xbedna 14_11.Box02
+xbedna 14_08.Box02
+xbedna 14_09.Box02
+xbedna 14_13.Box02
+xprkna 3_03.Box21
+popel01_43.popel01
+popel01_45.popel01
+popel01_44.popel01
+s_maly_11.Box04
+xkvet02_10.Line17
+xlavicka_09.@lav01
+odpadko1_08.Mesh05
+odpadko1_07.Mesh05
+xlavicka_07.@lav01
+odpadko1_09.Mesh05
+xlavicka_10.@lav01
+xkvet02_11.Line17
+odpadko1_10.Mesh05
+xlavicka_12.@lav01
+xlavicka_13.@lav01
+odpadko1_11.Mesh05
+xkvet02_12.Line17
+kos01_07.odpadky01
+s_maly_13.Box04
+s_maly_12.Box04
+9zebriny_01.zebriny
+popel01_40.popel01
+popel01_39.popel01
+paleta01_01.paleta01
+bedna00_07.Box01
+bedna00_06.Box01
+bedna00_08.Box01
+odpadko1_12.Mesh05
+xlavicka_14.@lav01
+odpadko1_13.Mesh05
+xlavicka_15.@lav01
+xlavicka_16.@lav01
+xlavicka_17.@lav01
+odpadko1_14.Mesh05
+alarm01_01.Box03
+alarm01_01.Box05
+alarm01_01.alarm01
+dopravni1B_00.stozar
+s_maly_14.Box04
+xkvet02_13.Line17
+kos01_08.odpadky01
+9lamphl on_00.Line38
+9lamphl on_01.Line38
+9stan2_01.Box01
+66stn4_01.Object01
+66stn8_01.Box01
+xzebrik_02.Box02
+xkybl 1_01.Cylinder01
+xkoste 1_01.Box01
+9lamphl on_02.Line38
+xsud 01_04.Cylinder01
+xsud 01_05.Cylinder01
+xbedna 15_07.Box02
+xbedna 15_08.Box02
+xleseni_06.Box01
+osatka01_01.osatka01
+bedn_s1_03.bedna 02
+bedn_s1_02.bedna 02
+bedn_s2_05.Box02
+pepsi02_01.Box01
+xstul19_12.Cylinder01
+xstul19_12.Object01
+xzidle 05_68.Box01
+xzidle 05_70.Box01
+xzidle 05_71.Box01
+xzidle 05_69.Box01
+xstul19_11.Object01
+xstul19_11.Cylinder01
+xzidle 05_66.Box01
+xzidle 05_67.Box01
+xzidle 05_65.Box01
+xzidle 05_64.Box01
+xstul19_10.Cylinder01
+xstul19_10.Object01
+xzidle 05_63.Box01
+xzidle 05_62.Box01
+xzidle 05_60.Box01
+xzidle 05_61.Box01
+xstul19_09.Object01
+xstul19_09.Cylinder01
+xzidle 05_58.Box01
+xzidle 05_59.Box01
+xzidle 05_57.Box01
+xzidle 05_56.Box01
+xzidle 05_54.Box01
+xstul19_08.Cylinder01
+xzidle 05_55.Box01
+xstul19_08.Object01
+xzidle 05_53.Box01
+xzidle 05_52.Box01
+xzidle 05_50.Box01
+xstul19_07.Cylinder01
+xzidle 05_51.Box01
+xstul19_07.Object01
+xzidle 05_49.Box01
+bedna02_02.Box01
+xbedna 04_04.bedna 04
+bedna02_03.Box01
+popel01_41.popel01
+popel01_42.popel01
+zabradl_15.Box01
+zabradl_14.Box01
+xsvetlo 02 on_09.Cylinder01
+
+5, 100
+beer02_00.Box01
+s_maly_05.Object01
+lamp01o_01.stozar
+s_maly_06.Object01
+9mark3b_01.Rectangle01
+bigboy02_00.Box01
+lamp01o_03.stozar
+s_maly_09.Object01
+s_maly_07.Object01
+s_maly_08.Object01
+9mark3_04.Rectangle01
+9mark3_03.Rectangle01
+9mark3_02.Rectangle01
+orange02_00.Box01
+s_maly_10.Object01
+s_maly_11.Object01
+s_maly_12.Object01
+s_maly_13.Object01
+9plakat_00.Rectangle01
+lamp01o_05.stozar
+parking05_00.Box01
+maclac02_00.Box01
+s_maly_14.Object01
+bakery02_00.Box01
+lamp01o_07.stozar
+kominy01_19.Box08
+kominy01_20.Box08
+kominy01_21.Box08
+
+
+market
+10, 100
+pepsi02_00.Box01
+9stan3_00.vzper03
+9stan3_00.Box03
+9stan3_00.Rectangle04
+9stan3_00.Rectangle03
+9stan3_00.Rectangle02
+dopravni9B_00.Cylinder01
+xbedna 15_00.Box02
+xbedna 15_01.Box02
+xbedna 15_02.Box02
+9stan1_00.Box01
+9stan1_00.Rectangle03
+9stan1_00.Box09
+66stn4_00.Object01
+9slunec3_00.NGon01
+9slunec3_00.Object01
+bedna00_03.Box01
+bedna00_05.Box01
+bedna00_01.Box01
+bedna00_04.Box01
+bedna00_02.Box01
+xbedna 14_02.Box02
+xbedna 14_03.Box02
+osatka01_00.osatka01
+paleta01_00.paleta01
+sud01_03.sud01
+sud01_04.sud01
+66stn3_02.Box11
+66stn5_01.03
+popel01_35.popel01
+look02_00.Box01
+66stn1_02.Box01
+9slunec1_00.Object01
+9slunec1_00.NGon01
+66stn7_00.2
+9lamphl on_05.Line38
+66stn3_01.Box11
+kos01_11.odpadky01
+66stn1_00.Box01
+9stan2_00.Box01
+sud01_08.sud01
+xleseni_00.Box01
+sud01_07.sud01
+sud01_02.sud01
+sud01_00.sud01
+sud01_01.sud01
+xbedna 04_01.bedna 04
+xbedna 02_00.bedna 02
+xbedna 02_00.Object02
+xbedna 02_00.Object01
+9lamphl on_06.Line38
+66stn3_00.Box11
+xleseni_01.Box01
+bedn_s4_01.Box02
+bedn_s4_00.Box02
+xbedna 14_04.Box02
+bedn_s3_00.Box02
+@HQpolc1_00.policka
+popel01_36.popel01
+bedna01_11.Box01
+bedna01_10.Box01
+bedna01_12.Box01
+9zebriny_00.zebriny
+tutbedna_00.Box01
+xplechovka4_04.Cylinder02
+xplechovka4_03.Cylinder02
+xzebrik_00.Box02
+xbedna 16_03.Box02
+xbedna 16_04.Box02
+xbedna 16_01.Box02
+xbedna 16_00.Box02
+xbedna 16_02.Box02
+xvozik_02.Box02
+xvozik_02.Box01
+xsud 01_12.Cylinder01
+xsvetlo 01 on_01.Cylinder01
+xbedna 14_00.Box02
+xbedna 14_01.Box02
+xvozik_01.Box01
+xvozik_01.Box02
+66stn5_00.03
+66stn8_00.Box01
+xprkna 3_00.Box21
+66stn1_01.Box01
+helada02_00.Box01
+xsud 01_01.Cylinder01
+xsud 01_00.Cylinder01
+xkybl 1_00.Cylinder01
+@HQponk1_00.Box03
+bedn_s2_00.Box02
+bedn_s1_00.bedna 02
+kos01_12.odpadky01
+xkoste 1_00.Box01
+9vuz1_00.Box04
+9vuz1_00.Box05
+9vuz1_00.Box01
+9vuz1_00.NGon01
+9vuz1_00.Box03
+9vuz1_00.Cylinder02
+9vuz1_00.NGon03
+9vuz1_00.NGon02
+9vuz1_00.Cylinder01
+9vuz1_00.Box02
+9vuz1_00.NGon04
+bedna02_00.Box01
+bedna02_01.Box01
+9slunec1_08.NGon01
+9slunec1_08.Object01
+9stan2_02.Box01
+bedna01_14.Box01
+bedna01_13.Box01
+xbedna 15_24.Box02
+xbedna 15_25.Box02
+xbedna 15_26.Box02
+66stn5_03.03
+bedn_s1_06.bedna 02
+xleseni_09.Box01
+bedna00_10.Box01
+bedna00_09.Box01
+xplechovka3_05.Cylinder02
+popel01_56.popel01
+popel01_57.popel01
+popel01_55.popel01
+xprkna 3_05.Box21
+9mail_01.mbox
+bedna02_07.Box01
+bedna02_08.Box01
+bedna02_06.Box01
+bedna02_09.Box01
+bedna02_05.Box01
+bedna02_04.Box01
+xbedna 14_15.Box02
+xbedna 14_16.Box02
+66stn4_03.Object01
+xvozik_03.Box01
+xvozik_03.Box02
+9zebriny_02.zebriny
+popel01_20.popel01
+popel01_19.popel01
+popel01_21.popel01
+xsud 01_14.Cylinder01
+xsud 01_13.Cylinder01
+66stn1_03.Box01
+66stn6_00.viko06
+xbarel 1_19.barel 1
+xbarel 1_16.barel 1
+xbarel 1_17.barel 1
+xbarel 1_18.barel 1
+xbarel 1_20.barel 1
+dopravni9B_05.Cylinder01
+paleta01_04.paleta01
+paleta01_03.paleta01
+xbedna 16_16.Box02
+xbedna 16_15.Box02
+xbedna 16_18.Box02
+xbedna 16_19.Box02
+xbedna 16_17.Box02
+xleseni_10.Box01
+paleta01_05.paleta01
+xbedna 04_08.bedna 04
+popel01_59.popel01
+popel01_58.popel01
+xprkna 3_06.Box21
+xzebrik_04.Box02
+xbedna 06_01.Box01
+leseni2_05.Box10
+leseni2_05.Box06
+leseni2_05.Box05
+leseni2_05.Box08
+leseni2_05.Box07
+leseni2_05.Box09
+leseni2_05.Box04
+leseni2_05.Box03
+leseni2_05.Box16
+leseni2_05.Box02
+leseni2_05.Box15
+leseni2_05.Box17
+leseni2_05.Box01
+xkanal 1_02.Box01
+xkanal 1_01.Box01
+9lamphl on_07.Line38
+xzaclona 3_04.Box02
+xzaclona 3_05.Box02
+
+5, 100
+lamp01o_06.stozar
+lamp01o_04.stozar
+edmonds_00.Box01
+0rek09_00.Object01
+lamp01o_02.stozar
+9mark3_01.Rectangle01
+9mark3b_00.Rectangle01
+9mark1b_00.Line01
+9mark3_00.Rectangle01
+maclac02_01.Box01
+dentist02_00.Box01
+lazarus02_00.Box01
+toys_00.Box01
+bakery02_02.Box01
+xv spina3_18.Rectangle72
+kominy02_05.Box08
+kominy02_06.Box08
+kominy02_07.Box08
+kominy02_08.Box08
+kominy01_08.Box08
+kominy01_09.Box08
+kominy01_10.Box08
+
+
+factory front right
+0.2, 100
+9boxy3b_03.Box01
+9boxy3b_05.Box01
+9boxy3b_07.Box01
+9boxy3c_04.Box04
+9boxy3d_06.Box06
+9boxy3b_06.Box01
+9boxy3d_08.Box06
+9boxy3c_03.Box04
+9boxy3_02.Box05
+9boxy3d_07.Box06
+9boxy3c_02.Box04
+9boxy3_03.Box05
+9boxy3b_04.Box01
+9boxy3d_12.Box06
+9boxy3b_09.Box01
+9boxy3c_05.Box04
+9boxy3d_10.Box06
+9boxy3_05.Box05
+9boxy3d_11.Box06
+9boxy3d_13.Box06
+9boxy3d_14.Box06
+
+10, 100
+xbarel 1_51.barel 1
+xbarel 1_52.barel 1
+xbarel 1_50.barel 1
+popel01_63.popel01
+popel01_64.popel01
+popel01_65.popel01
+xbedna 06_03.Box01
+popel01_66.popel01
+popel01_67.popel01
+popel01_144.popel01
+dopravni5B_04.stozar
+dopravni7B_01.stozar
+xbarel 1_48.barel 1
+xbarel 1_49.barel 1
+xbedna 15_28.Box02
+xbedna 15_29.Box02
+xbedna 15_27.Box02
+9ker1_28.Object01
+xbarel 2_11.barel 1
+xbarel 2_12.barel 1
+xleseni_19.Box01
+xplechovka8_00.Box01
+xplechovka8_02.Box01
+xplechovka8_01.Box01
+xbarel 1_38.barel 1
+bedna01_27.Box01
+bedna01_26.Box01
+bedna01_28.Box01
+xbarel 1_44.barel 1
+xbedna 02_09.bedna 02
+xbedna 02_09.Object02
+xbedna 02_09.Object01
+xsvetlo 02 on_06.Cylinder01
+9lamphl on_09.Line38
+9lamphl on_08.Line38
+
+5, 100
+xv spina2_06.!!flek17
+9palet1_23.Box01
+9palet1_22.Box01
+9palet1_21.Box01
+9palet1_20.Box01
+9palet1_19.Box01
+9palet1_18.Box01
+9palet1_17.Box01
+9palet1_16.Box01
+9palet1_15.Box01
+9palet1_14.Box01
+9palet1_13.Box01
+9prkn2_03.Box05
+9prkna_03.prknabox
+9prkn3_00.Box08
+9prkna_04.prknabox
+9prkn2_04.Box05
+9prkn4_01.Box09
+9prkn5_04.Box10
+9prkn5_03.Box10
+9prkn4_00.Box09
+hardware_00.Box01
+@prist01_01.Box02
+@prist04_02.Box05
+@bouda01_01.bouda01
+lamp01o_49.stozar
+
+
+factory front left
+5, 100
+@prist01_01.Box02
+@bouda06_02.Box02
+@prist03_01.Box04
+@prist02_00.Box03
+@HQvod01_00.vodojem
+@prist05_06.Box06
+plotdrev4_03.Box01
+
+10, 100
+xbarel 1_47.barel 1
+xbarel 1_46.barel 1
+9lamphl on_12.Line38
+9lamphl on_13.Line38
+xbarel 1_45.barel 1
+popel01_24.popel01
+popel01_23.popel01
+popel01_22.popel01
+9lamphl on_14.Line38
+xplechovka2_03.Cylinder02
+xplechovka2_04.Cylinder02
+xleseni_18.Box01
+bedna01_25.Box01
+bedna01_24.Box01
+pytle01_06.pyt01
+pytle01_05.pyt01
+pytle01_04.pyt01
+xbarel 2_09.barel 1
+xbarel 2_08.barel 1
+leseni_07.Box07
+leseni_07.Box09
+leseni_07.Box04
+leseni_07.Box12
+leseni_07.Box14
+leseni_07.Box06
+leseni_07.Box10
+leseni_07.Box05
+leseni_07.Box11
+leseni_07.Box13
+leseni_07.Box08
+leseni_07.Box17
+leseni_07.Box01
+leseni_07.Box02
+leseni_07.Box15
+leseni_07.Box16
+leseni_07.Box03
+leseni2_07.Box04
+leseni2_07.Box09
+leseni2_07.Box07
+leseni2_07.Box08
+leseni2_07.Box06
+leseni2_06.Box07
+leseni2_06.Box04
+leseni2_07.Box05
+leseni2_06.Box09
+leseni2_07.Box10
+leseni2_07.Box01
+leseni2_07.Box17
+leseni2_07.Box02
+leseni2_07.Box15
+leseni2_07.Box03
+leseni2_07.Box16
+leseni2_06.Box08
+leseni2_06.Box17
+leseni2_06.Box01
+leseni2_06.Box15
+leseni2_06.Box02
+leseni2_06.Box16
+leseni2_06.Box03
+leseni2_06.Box05
+leseni2_06.Box10
+leseni2_06.Box06
+xbarel 2_10.barel 1
+xzaclona 4_00.Box02
+xzaclona 4_01.Box02
+xzaclona 4_02.Box02
+xzaclona 4_03.Box02
+
+
+factory back
+5, 100
+9konstr3_03.Cylinder01
+@bouda02_02.Box01
+xkont 1_03.Box01
+xkont 1_04.Box01
+xkont 1_10.Box01
+xkont 1_02.Box01
+xkont 1_00.Box01
+xkont 1_01.Box01
+9prkn5_00.Box10
+xzaclona 3_07.Box02
+xzaclona 3_08.Box02
+xzaclona 3_06.Box02
+9prkn2_00.Box05
+9trubk2_02.Circle04
+9palet1_00.Box01
+9palet1_02.Box01
+9trubk2_01.Circle04
+9trubk2_00.Circle04
+9palet1_01.Box01
+plotdrev4_02.Box01
+@drplot3_09.Box01
+@drplot3_08.Box01
+plotdrev4_01.Box01
+@drplot3_07.Box01
+plotdrev4_plak_01.Box01
+plotdrev4_plak_01.Rectangle0
+4komin_09.Cylinder01
+plotdrev4_05.Box01
+@drplot3_21.Box01
+plotdrev4_04.Box01
+@drplot3_10.Box01
+plotdrev4_06.Box01
+@drplot3_11.Box01
+plotdrev4_07.Box01
+@drplot3_22.Box01
+plotdrev4_08.Box01
+@drplot3_12.Box01
+plotdrev4_09.Box01
+@drplot3_13.Box01
+plotdrev4_10.Box01
+@drplot3_14.Box01
+plotdrev4_11.Box01
+@drplot3_15.Box01
+plotdrev4_12.Box01
+@drplot3_23.Box01
+plotdrev4_13.Box01
+@drplot3_16.Box01
+plotdrev4_14.Box01
+@drplot3_17.Box01
+plotdrev4_15.Box01
+@drplot3_18.Box01
+plotdrev4_16.Box01
+@drplot3_19.Box01
+plotdrev4_17.Box01
+@drplot3_20.Box01
+plotdrev4_18.Box01
+@drplot3_24.Box01
+plotdrev4_19.Box01
+@drplot3_25.Box01
+plotdrev4_20.Box01
+9palet1_09.Box01
+9palet1_10.Box01
+9trubk2_04.Circle04
+9trubk2_05.Circle04
+9trubk2_03.Circle04
+9palet1_11.Box01
+9trubk2_06.Circle04
+9palet1_12.Box01
+9prkna_01.prknabox
+9prkna_02.prknabox
+9palet1_08.Box01
+9palet1_07.Box01
+9palet1_06.Box01
+9prkn5_02.Box10
+9prkna_00.prknabox
+9prkn2_01.Box05
+9prkn2_02.Box05
+9prkn5_01.Box10
+9palet1_05.Box01
+9palet1_04.Box01
+9palet1_03.Box01
+xkont 3_04.Box01
+xkont 3_05.Box01
+xkont 3_00.Box01
+xkont 3_01.Box01
+xkont 3_06.Box01
+xkont 3_02.Box01
+xkont 3_03.Box01
+xkont 2_00.Box01
+xkont 1_05.Box01
+xkont 2_01.Box01
+xkont 3_07.Box01
+xkont 1_08.Box01
+xkont 1_06.Box01
+xkont 1_07.Box01
+xkont 2_04.Box01
+xkont 2_02.Box01
+xkont 2_03.Box01
+xkont 1_09.Box01
+xv spina2_07.!!flek17
+xv spina3_20.Rectangle72
+xv spina2_08.!!flek17
+xv spina2_09.!!flek17
+lamp01o_50.stozar
+xv spina3_19.Rectangle72
+
+10, 100
+xleseni_13.Box01
+xleseni_14.Box01
+pytle01_02.pyt01
+pytle01_03.pyt01
+leseni_06.Box07
+leseni_06.Box09
+leseni_06.Box04
+leseni_06.Box10
+leseni_06.Box05
+leseni_06.Box06
+leseni_06.Box08
+leseni_06.Box12
+leseni_06.Box14
+leseni_06.Box11
+leseni_06.Box13
+leseni_06.Box01
+leseni_06.Box17
+leseni_06.Box02
+leseni_06.Box15
+leseni_06.Box03
+leseni_06.Box16
+pytle01_01.pyt01
+pytle01_00.pyt01
+xbarel 1_42.barel 1
+xbarel 1_43.barel 1
+xbarel 1_40.barel 1
+xbarel 1_39.barel 1
+xbarel 1_41.barel 1
+9lamphl on_11.Line38
+9lamphl on_10.Line38
+9konstr3c_01.Box07
+9konstr3c_02.Box07
+xbarel 1_11.barel 1
+xbarel 1_12.barel 1
+xbarel 1_10.barel 1
+9ker1_15.Object01
+xbarel 2_01.barel 1
+xplechovka7_04.Box01
+xplechovka7_05.Box01
+xplechovka7_03.Box01
+xbedna 06_02.Box01
+xbarel 4_07.barel 1
+xbarel 4_08.barel 1
+xbarel 1_22.barel 1
+xbarel 1_21.barel 1
+xleseni_15.Box01
+xleseni_16.Box01
+xleseni_17.Box01
+xsvetlo 02 on_03.Cylinder01
+xbarel 1_15.barel 1
+xsvetlo 02 on_02.Cylinder01
+plvrat01_00.Mesh02
+plvrat01_00.vrata01
+xleseni_12.Box01
+xkybl 1_03.Cylinder01
+9ker1_16.Object01
+xkybl 1_04.Cylinder01
+xplechovka4_06.Cylinder02
+xplechovka4_07.Cylinder02
+xbarel 1_13.barel 1
+xprkna 3_07.Box21
+xsvetlo 02 on_01.Cylinder01
+xbarel 2_00.barel 1
+bedna01_23.Box01
+bedna01_22.Box01
+xleseni_11.Box01
+xbarel 1_14.barel 1
+leseni_05.Box13
+leseni_05.Box11
+leseni_05.Box05
+leseni_05.Box10
+leseni_05.Box06
+leseni_05.Box01
+leseni_05.Box17
+leseni_05.Box02
+leseni_05.Box08
+leseni_05.Box15
+leseni_05.Box03
+leseni_05.Box16
+leseni_05.Box09
+leseni_05.Box07
+leseni_05.Box04
+leseni_05.Box12
+leseni_05.Box14
+leseni2_04.Box06
+leseni2_04.Box10
+leseni2_04.Box05
+leseni_04.Box13
+leseni2_04.Box08
+leseni2_04.Box09
+leseni_04.Box06
+leseni_04.Box10
+leseni2_04.Box04
+leseni2_04.Box07
+leseni2_04.Box01
+leseni2_04.Box17
+leseni2_04.Box02
+leseni2_04.Box15
+leseni2_04.Box03
+leseni2_04.Box16
+xzebrik_05.Box02
+leseni_04.Box01
+leseni_04.Box17
+leseni_04.Box11
+leseni_04.Box05
+leseni_04.Box15
+leseni_04.Box08
+leseni_04.Box02
+leseni_04.Box03
+leseni_04.Box16
+leseni_04.Box07
+leseni_04.Box09
+leseni_04.Box04
+leseni2_03.Box05
+leseni2_03.Box10
+leseni2_03.Box06
+leseni_04.Box14
+leseni_04.Box12
+leseni2_03.Box01
+leseni2_03.Box17
+leseni2_03.Box08
+leseni2_03.Box02
+leseni2_03.Box15
+leseni2_03.Box16
+leseni2_03.Box03
+leseni2_03.Box07
+leseni2_03.Box09
+leseni2_03.Box04
+leseni_03.Box13
+leseni_03.Box11
+leseni_03.Box05
+leseni_03.Box10
+leseni_03.Box06
+leseni_03.Box08
+leseni_03.Box07
+leseni_03.Box09
+leseni_03.Box04
+leseni_03.Box17
+leseni_03.Box01
+leseni_03.Box15
+leseni_03.Box02
+leseni_03.Box03
+leseni_03.Box16
+leseni_03.Box12
+leseni_03.Box14
+
+0.2, 100
+9boxy1b_00.Box01
+9boxy1d_00.Box06
+9boxy1_00.Box05
+9boxy3d_02.Box06
+9boxy3b_01.Box01
+9boxy3d_01.Box06
+9boxy3d_00.Box06
+9boxy3_01.Box05
+9boxy3d_03.Box06
+9boxy3c_00.Box04
+9boxy3b_00.Box01
+9boxy3c_01.Box04
+9boxy3_00.Box05
+9boxy3d_04.Box06
+9boxy3b_02.Box01
+9boxy3d_05.Box06
+
+20, 100
+xv kachle1_15.Box06
+xv kachle1_13.Box06
+xv kachle1_14.Box06
+xv kachle1_12.Box06
+
+
+courtyard
+5, 100
+xv spina3_09.Rectangle72
+xv spina3_10.Rectangle72
+xv spina3_08.Rectangle72
+xv spina3_11.Rectangle72
+xv spina3_07.Rectangle72
+xv spina2_05.!!flek17
+xv spina3_06.Rectangle72
+xv spina3_12.Rectangle72
+xv spina3_13.Rectangle72
+xv spina3_14.Rectangle72
+xv spina3_01.Rectangle72
+xv spina3_02.Rectangle72
+xv spina2_03.!!flek17
+xv spina2_04.!!flek17
+xv spina3_15.Rectangle72
+xv spina3_04.Rectangle72
+9prkn5_09.Box10
+lamp01o_48.stozar
+xzaclona 3_21.Box02
+xzaclona 3_20.Box02
+9konstr3_04.Cylinder01
+9konstr4_01.Box04
+9konstr3_00.Cylinder01
+xzaclona 6_05.Box02
+xzaclona 6_04.Box02
+xzaclona 6_03.Box02
+xzaclona 6_06.Box02
+@HQvod01_03.vodojem
+xvoda_00.Cylinder01
+xzaclona 6_09.Box02
+xzaclona 6_10.Box02
+schody1_71.Box02
+schody1_72.Box02
+schody1_70.Box02
+schody1_69.Box02
+schody1_66.Box02
+schody1_67.Box02
+schody1_68.Box02
+schody1_61.Box02
+schody1_62.Box02
+schody1_63.Box02
+schody1_58.Box02
+schody1_59.Box02
+schody1_60.Box02
+schody1_02.Box02
+schody1_01.Box02
+schody1_00.Box02
+lamp01o_47.stozar
+s_cerveny_00.Object01
+schody1_65.Box02
+schody1_64.Box02
+9prkn5_08.Box10
+9prkn5_07.Box10
+xzaclona 6_08.Box02
+xzaclona 6_07.Box02
+xzaclona 4_04.Box02
+xzaclona 3_19.Box02
+xzaclona 3_18.Box02
+xzaclona 6_11.Box02
+@bouda02_00.Box01
+9prkn5_06.Box10
+s_maly_36.Object01
+s_maly_38.Object01
+s_maly_37.Object01
+9prkn5_10.Box10
+xzaclona 3_22.Box02
+xv spina3_03.Rectangle72
+xv spina2_02.!!flek17
+xv spina3_05.Rectangle72
+
+10, 100
+0prad_28.Rectangle02
+0prad_21.Rectangle02
+popel01_141.popel01
+popel01_140.popel01
+xbedna 04_32.bedna 04
+bedna01_03.Box01
+bedna01_04.Box01
+xplechovka5_17.Box01
+xbedna 14_47.Box02
+xplechovka7_18.Box01
+popel01_132.popel01
+xplechovka7_17.Box01
+popel01_133.popel01
+popel01_134.popel01
+xplechovka3_19.Cylinder02
+xbarel 1_67.barel 1
+xleseni_33.Box01
+bedn_s4_21.Box02
+9ker1_17.Object01
+popel01_32.popel01
+sud01_12.sud01
+sud01_13.sud01
+bedn_s1_38.bedna 02
+xbedna 04_31.bedna 04
+xbedna 02_13.bedna 02
+0prad_32.Rectangle02
+xbedna 15_70.Box02
+xplechovka8_14.Box01
+xplechovka3_18.Cylinder02
+xbedna 02_13.Object02
+xbedna 02_13.Object01
+xbarel 1_69.barel 1
+xbarel 1_68.barel 1
+xbedna 15_68.Box02
+xbedna 15_69.Box02
+xbarel 2_14.barel 1
+xbarel 2_15.barel 1
+pytle01_09.pyt01
+bedna01_51.Box01
+xplechovka1_29.Cylinder02
+xbedna 16_40.Box02
+0prad_10.Rectangle02
+0prad_31.Rectangle02
+xsud 01_38.Cylinder01
+xprkna 3_14.Box21
+leseni_02.Box01
+leseni_02.Box17
+leseni_02.Box15
+leseni_02.Box02
+leseni_02.Box03
+leseni_02.Box16
+leseni_02.Box08
+leseni_02.Box06
+leseni_02.Box05
+leseni_02.Box13
+leseni_02.Box11
+leseni_02.Box10
+leseni_02.Box09
+leseni_02.Box07
+leseni_02.Box12
+leseni_02.Box04
+leseni_02.Box14
+xbarel 4_21.barel 1
+xbarel 4_22.barel 1
+xkybl 1_09.Cylinder01
+popel01_33.popel01
+xbedna 04_33.bedna 04
+popel01_34.popel01
+xx trouba_00.Object02
+xx trouba_00.Object01
+xx trouba_00.trouba
+bedna00_27.Box01
+bedna00_26.Box01
+bedna00_28.Box01
+xbedna 15_71.Box02
+xplechovka2_15.Cylinder02
+xbarel 4_23.barel 1
+xplechovka5_19.Box01
+xplechovka5_18.Box01
+xplechovka5_20.Box01
+bedn_s1_37.bedna 02
+xbedna 14_48.Box02
+xbedna 14_49.Box02
+bedn_s1_35.bedna 02
+bedn_s1_36.bedna 02
+xleseni_34.Box01
+popel01_139.popel01
+popel01_137.popel01
+popel01_138.popel01
+0prad_30.Rectangle02
+popel01_135.popel01
+popel01_136.popel01
+xplechovka3_20.Cylinder02
+0prad_09.Rectangle02
+xsud 01_37.Cylinder01
+xsud 01_36.Cylinder01
+popel01_130.popel01
+popel01_131.popel01
+pytle01_10.pyt01
+9kolo1_20.kolo
+9kolo1_22.kolo
+9kolo1_23.kolo
+9kolo1_21.kolo
+xbarel 1_07.barel 1
+xbarel 1_08.barel 1
+xvozik_09.Box02
+xvozik_09.Box01
+xbedna 15_67.Box02
+xplechovka1_28.Cylinder02
+xplechovka1_27.Cylinder02
+xplechovka1_26.Cylinder02
+xplechovka1_25.Cylinder02
+xbedna 15_72.Box02
+xbarel 2_02.barel 1
+xsvetlo 02 on_07.Cylinder01
+9ker1_18.Object01
+popel01_31.popel01
+popel01_30.popel01
+xplechovka4_20.Cylinder02
+xbedna 02_10.bedna 02
+xbedna 02_10.Object02
+xbedna 02_10.Object01
+xplechovka8_13.Box01
+xplechovka8_12.Box01
+bedna02_23.Box01
+bedna01_50.Box01
+bedn_s1_34.bedna 02
+bedn_s1_33.bedna 02
+bedn_s1_32.bedna 02
+xleseni_32.Box01
+xbedna 16_38.Box02
+xbedna 16_39.Box02
+bedn_s4_20.Box02
+bedn_s4_19.Box02
+xkybl 2_05.Cylinder01
+9ker1_30.Object01
+xbarel 1_66.barel 1
+xplechovka7_16.Box01
+xbedna 02_11.bedna 02
+xbedna 02_12.Object01
+xbedna 02_12.Object02
+xbedna 02_12.bedna 02
+9ker1_19.Object01
+xbarel 4_20.barel 1
+xbedna 02_11.Object02
+xbedna 02_11.Object01
+popel01_126.popel01
+0prad_20.Rectangle02
+xvozik_00.Box02
+xvozik_00.Box01
+sud01_15.sud01
+sud01_14.sud01
+xkanal 1_17.Box01
+xkanal 1_16.Box01
+sud01_21.sud01
+sud01_20.sud01
+9konstr3c_03.Box07
+9konstr3c_05.Box07
+9konstr3c_04.Box07
+popel01_127.popel01
+popel01_129.popel01
+popel01_128.popel01
+bedna02_21.Box01
+xplechovka5_15.Box01
+xplechovka5_16.Box01
+bedna02_24.Box01
+xbedna 15_59.Box02
+xbarel 1_09.barel 1
+9ker1_21.Object01
+xbedna 02_15.bedna 02
+xbedna 02_15.Object02
+xbedna 02_15.Object01
+popel01_125.popel01
+popel01_124.popel01
+xbedna 04_30.bedna 04
+bedn_s1_30.bedna 02
+xplechovka2_13.Cylinder02
+xplechovka2_14.Cylinder02
+xbarel 4_16.barel 1
+xbarel 4_17.barel 1
+xplechovka4_16.Cylinder02
+paleta01_34.paleta01
+paleta01_33.paleta01
+0prad_18.Rectangle02
+0prad_19.Rectangle02
+xplechovka4_18.Cylinder02
+xplechovka4_17.Cylinder02
+xbedna 14_46.Box02
+xbedna 14_44.Box02
+xbedna 14_45.Box02
+xbedna 14_50.Box02
+xbarel 1_70.barel 1
+xplechovka3_17.Cylinder02
+xbedna 15_62.Box02
+xbedna 15_61.Box02
+xbedna 15_64.Box02
+xbedna 15_65.Box02
+xbedna 15_60.Box02
+xbedna 15_63.Box02
+xbedna 15_66.Box02
+bedn_s1_31.bedna 02
+xbarel 1_65.barel 1
+bedn_s4_18.Box02
+xbarel 1_64.barel 1
+xsvetlo 02 on_10.Cylinder01
+9ker1_20.Object01
+popel01_123.popel01
+xprkna 3_13.Box21
+xprkna 3_12.Box21
+xbarel 4_19.barel 1
+xbarel 4_18.barel 1
+xzebrik_09.Box02
+leseni2_02.Box09
+leseni2_02.Box07
+leseni2_02.Box04
+leseni2_02.Box08
+leseni2_02.Box05
+leseni2_02.Box10
+leseni2_02.Box06
+leseni2_02.Box01
+leseni2_02.Box17
+leseni2_02.Box02
+leseni2_02.Box15
+leseni2_02.Box03
+leseni2_02.Box16
+leseni2_09.Box01
+leseni2_09.Box02
+leseni2_09.Box08
+leseni2_09.Box17
+leseni2_09.Box15
+leseni2_09.Box03
+leseni2_09.Box16
+leseni2_09.Box07
+leseni2_09.Box09
+leseni2_09.Box04
+leseni2_09.Box06
+leseni2_09.Box10
+leseni2_09.Box05
+xbarel 4_25.barel 1
+xbarel 4_26.barel 1
+xbarel 1_63.barel 1
+xbedna 14_42.Box02
+xbedna 14_43.Box02
+popel01_121.popel01
+popel01_122.popel01
+xsud 01_34.Cylinder01
+xsud 01_35.Cylinder01
+xbedna 14_41.Box02
+popel01_120.popel01
+popel01_119.popel01
+0prad_16.Rectangle02
+0prad_17.Rectangle02
+xleseni_30.Box01
+xbarel 2_03.barel 1
+xplechovka4_15.Cylinder02
+xplechovka4_14.Cylinder02
+bedn_s1_23.bedna 02
+xsud 01_30.Cylinder01
+popel01_118.popel01
+popel01_117.popel01
+xplechovka5_13.Box01
+xplechovka5_12.Box01
+xleseni_31.Box01
+xbedna 15_58.Box02
+xbedna 15_57.Box02
+xplechovka1_16.Cylinder02
+xbedna 04_23.bedna 04
+xplechovka2_12.Cylinder02
+bedn_s4_13.Box02
+bedn_s1_21.bedna 02
+bedn_s1_20.bedna 02
+bedn_s1_22.bedna 02
+bedna00_25.Box01
+xbedna 02_14.bedna 02
+xbedna 02_14.Object02
+xbedna 02_14.Object01
+xplechovka1_15.Cylinder02
+xbarel 1_53.barel 1
+xbarel 1_54.barel 1
+xplechovka3_12.Cylinder02
+bedna01_49.Box01
+xbedna 04_24.bedna 04
+0prad_27.Rectangle02
+9ker1_27.Object01
+popel01_25.popel01
+popel01_26.popel01
+popel01_142.popel01
+xbedna 02_20.bedna 02
+bedn_s3_23.Box02
+xbedna 02_20.Object02
+xbedna 02_20.Object01
+bedn_s2_17.Box02
+bedn_s2_16.Box02
+xplechovka1_17.Cylinder02
+bedn_s2_15.Box02
+xbedna 16_34.Box02
+xbedna 16_33.Box02
+xbedna 16_30.Box02
+xbedna 16_31.Box02
+xbedna 16_35.Box02
+xbedna 16_32.Box02
+bedn_s1_24.bedna 02
+xplechovka3_13.Cylinder02
+xbedna 04_25.bedna 04
+xplechovka7_12.Box01
+xplechovka7_13.Box01
+xbarel 1_56.barel 1
+xbarel 1_55.barel 1
+xplechovka8_08.Box01
+xprkna 2_03.Box01
+xprkna 2_03.Box02
+xprkna 2_03.Box03
+xprkna 2_03.Box04
+paleta01_31.paleta01
+0prad_12.Rectangle02
+popel01_147.popel01
+popel01_146.popel01
+xx trouba_01.Object02
+xx trouba_01.Object01
+xx trouba_01.trouba
+xvozik_08.Box01
+xvozik_08.Box02
+xkybl 1_08.Cylinder01
+osatka01_05.osatka01
+tutbedna_04.Box01
+xkoste 1_05.Box01
+paleta01_32.paleta01
+9ker1_22.Object01
+xbarel 1_58.barel 1
+pytle01_08.pyt01
+popel01_148.popel01
+0prad_22.Rectangle02
+0prad_23.Rectangle02
+0prad_26.Rectangle02
+0prad_11.Rectangle02
+xbedna 15_56.Box02
+xbedna 14_35.Box02
+xbedna 14_36.Box02
+xbedna 06_05.Box01
+xx postel_01.Box04
+xx postel_00.Box04
+0prad_15.Rectangle02
+xbedna 02_19.bedna 02
+bedna01_45.Box01
+bedn_s4_14.Box02
+xplechovka8_09.Box01
+xplechovka8_10.Box01
+bedn_s1_25.bedna 02
+bedn_s1_26.bedna 02
+popel01_150.popel01
+xplechovka2_11.Cylinder02
+popel01_149.popel01
+9ker1_26.Object01
+xbedna 02_19.Object02
+xbedna 02_19.Object01
+popel01_153.popel01
+bedna01_46.Box01
+bedna01_47.Box01
+9zebriny_04.zebriny
+xplechovka1_18.Cylinder02
+xbarel 1_59.barel 1
+xbarel 1_60.barel 1
+9ker1_29.Object01
+piskoviste_00.Box01
+piskoviste_00.Plane01
+xkanal 1_15.Box01
+zahon02_01.Object01
+xbarel 1_57.barel 1
+bedn_s1_29.bedna 02
+bedna00_29.Box01
+bedna00_30.Box01
+xplechovka7_14.Box01
+xplechovka7_15.Box01
+popel01_151.popel01
+bedn_s4_17.Box02
+bedn_s4_16.Box02
+popel01_152.popel01
+bedn_s1_28.bedna 02
+xplechovka1_24.Cylinder02
+xbedna 14_39.Box02
+xbedna 14_40.Box02
+9ker1_23.Object01
+xplechovka8_11.Box01
+xplechovka5_14.Box01
+xbarel 2_04.barel 1
+sud01_16.sud01
+sud01_17.sud01
+xplechovka3_14.Cylinder02
+xplechovka1_22.Cylinder02
+xplechovka1_23.Cylinder02
+popel01_155.popel01
+popel01_154.popel01
+9zebriny_05.zebriny
+bedn_s4_15.Box02
+xbedna 04_27.bedna 04
+0prad_25.Rectangle02
+xbedna 15_54.Box02
+xbedna 15_55.Box02
+xbarel 1_62.barel 1
+xbarel 1_61.barel 1
+0prad_29.Rectangle02
+0prad_13.Rectangle02
+0prad_14.Rectangle02
+xbedna 14_38.Box02
+0prad_24.Rectangle02
+4pristr02_00.Box01
+4pristr02_01.Box01
+4pristr01_00.Box01
+4pristr01_01.Box01
+4pristr02_00.Box04
+4pristr02_00.Box07
+4pristr02_00.Box03
+4pristr02_01.Box07
+4pristr02_01.Box04
+4pristr02_01.Box03
+4pristr02_01.Box02
+4pristr02_01.Box09
+4pristr02_01.Box05
+4pristr02_00.Box05
+4pristr02_00.Box09
+4pristr02_00.Box02
+xbedna 02_18.Object02
+xbedna 02_18.Object01
+xbedna 02_18.bedna 02
+xbedna 04_26.bedna 04
+popel01_28.popel01
+popel01_27.popel01
+xplechovka2_10.Cylinder02
+bedn_s1_27.bedna 02
+xbedna 16_37.Box02
+xplechovka1_20.Cylinder02
+xplechovka1_21.Cylinder02
+xplechovka1_19.Cylinder02
+xbedna 02_17.Object01
+xbedna 02_17.Object02
+xbedna 02_17.bedna 02
+sud01_19.sud01
+xbedna 04_29.bedna 04
+sud01_18.sud01
+bedna01_06.Box01
+bedna01_48.Box01
+xvozik_07.Box01
+xbedna 04_28.bedna 04
+xvozik_07.Box02
+xbedna 02_16.Object02
+xbedna 02_16.Object01
+xbedna 02_16.bedna 02
+xsud 01_33.Cylinder01
+9ker1_25.Object01
+xplechovka3_15.Cylinder02
+xplechovka3_16.Cylinder02
+xbedna 14_37.Box02
+popel01_157.popel01
+9ker1_24.Object01
+popel01_156.popel01
+xsud 01_32.Cylinder01
+xsud 01_31.Cylinder01
+popel01_29.popel01
+xbedna 16_36.Box02
+xbarel 4_24.barel 1
+paleta01_35.paleta01
+bedna02_22.Box01
+xplechovka4_19.Cylinder02
+leseni2_01.Box01
+leseni2_01.Box17
+leseni2_01.Box02
+leseni2_01.Box15
+leseni2_01.Box03
+leseni2_01.Box16
+leseni2_01.Box07
+leseni2_01.Box09
+leseni2_01.Box04
+leseni2_01.Box05
+leseni2_01.Box10
+leseni2_01.Box06
+leseni2_01.Box08
+s_maly_37.Box04
+s_maly_36.Box04
+s_maly_38.Box04
+bedna01_05.Box01
+
+1, 100
+9trbmodr2_03.Object01
+9trbmodr_02.Cylinder01
+9trbmodr2_01.Object01
+9trbmodr2_02.Object01
+9trbmodr_01.Cylinder01
+9halda_00.Plane01
+
+20, 100
+xv kachle1_07.Box06
+xv kachle1_06.Box06
+xv kachle1_05.Box06
+xv kachle1_04.Box06
+xv kachle1_03.Box06
+xv kachle1_02.Box06
+xv kachle1_01.Box06
+
+0.2, 100
+9klepadlo_00.Loft04
+9klepadlo_00.Loft01
+
+
+trees
+2, 100, indir mul 1.5
+s_oranz_00.Object01
+s_oranz_01.Object01
+s_oranz_02.Object01
+s_oranz_03.Object01
+s_oranz_04.Object01
+s_oranz_05.Object01
+s_oranz_06.Object01
+s_oranz_07.Object01
+s_oranz_08.Object01
+s_oranz_09.Object01
+s_oranz_10.Object01
+s_oranz_11.Object01
+s_oranz_12.Object01
+s_oranz_13.Object01
+s_oranz_14.Object01
+s_oranz_15.Object01
+s_oranz_16.Object01
+s_oranz_17.Object01
+s_oranz_18.Object01
+s_oranz_19.Object01
+s_oranz_20.Object01
+s_oranz_21.Object01
+s_oranz_22.Object01
+s_oranz_23.Object01
+s_oranz_24.Object01
+s_oranz_25.Object01
+s_oranz_26.Object01
+s_oranz_27.Object01
+s_oranz_28.Object01
+s_oranz_29.Object01
+s_oranz_30.Object01
+s_oranz_31.Object01
+s_oranz_32.Object01
+s_oranz_33.Object01
+s_oranz_34.Object01
+s_oranz_35.Object01
+s_oranz_36.Object01
+s_oranz_37.Object01
+s_oranz_38.Object01
+s_oranz_39.Object01
+s_oranz_40.Object01
+s_oranz_41.Object01
+s_oranz_42.Object01
+s_oranz_43.Object01
+s_oranz_44.Object01
+s_oranz_45.Object01
+s_oranz_46.Object01
+s_oranz_47.Object01
+s_oranz_00.Box06
+s_oranz_01.Box06
+s_oranz_02.Box06
+s_oranz_03.Box06
+s_oranz_04.Box06
+s_oranz_05.Box06
+s_oranz_06.Box06
+s_oranz_07.Box06
+s_oranz_08.Box06
+s_oranz_09.Box06
+s_oranz_10.Box06
+s_oranz_11.Box06
+s_oranz_12.Box06
+s_oranz_13.Box06
+s_oranz_14.Box06
+s_oranz_15.Box06
+s_oranz_16.Box06
+s_oranz_17.Box06
+s_oranz_18.Box06
+s_oranz_19.Box06
+s_oranz_20.Box06
+s_oranz_21.Box06
+s_oranz_22.Box06
+s_oranz_23.Box06
+s_oranz_24.Box06
+s_oranz_25.Box06
+s_oranz_26.Box06
+s_oranz_27.Box06
+s_oranz_28.Box06
+s_oranz_29.Box06
+s_oranz_30.Box06
+s_oranz_31.Box06
+s_oranz_32.Box06
+s_oranz_33.Box06
+s_oranz_34.Box06
+s_oranz_35.Box06
+s_oranz_36.Box06
+s_oranz_37.Box06
+s_oranz_38.Box06
+s_oranz_39.Box06
+s_oranz_40.Box06
+s_oranz_41.Box06
+s_oranz_42.Box06
+s_oranz_43.Box06
+s_oranz_44.Box06
+s_oranz_45.Box06
+s_oranz_46.Box06
+s_oranz_47.Box06
