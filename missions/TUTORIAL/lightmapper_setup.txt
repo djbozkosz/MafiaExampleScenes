@@ -1,13 +1,59 @@
+djbozkosz, 2020
+
+Following file contains lightmapper setup for all lightmapped meshes.
+
+Default setup was:
+Multisampling: 8x
+Compute: GPU
+Optimize Size: True
+Interpolate Normals: True
+Limit GPU Usage:
+	By Temperature: 60 °C - will keep chip in temperature range: 50 ~ 70 °C - don't burn your graphics card !!!
+Ambient Color:
+	Custom: #d9f5ff - just use actual scene ambient and in picker dialog grab and move brightness (value) handle to max value
+Direct Lighting:
+	Use: True
+	Ambient: False
+	Multiplier: 1.0
+Indirect Lighting (Global Illumination):
+	Use: True
+	Ambient: True
+	Multiplier: 1.0
+	Bounces: 2.0
+	Quality: 2.0 (3.0 for all road and pavement meshes)
+Blur:
+	Use: True
+	Values:
+		0.0 0.2 0.0
+		0.2 0.2 0.2
+		0.0 0.2 0.0
+
+In following sections:
+	first values is: Texels per Unit (unit is one meter)
+	second value is: Clip radius (all opaque and keyed triangles in scene in this range will contribute into lightmap generation)
+
+
 grass
 bg color #304625, use amb too
 1, 170
 grass00_
+grass01_
 
 1, 100
 grass02_
 
 1, 100, dir mul 0.1
 grass03_
+
+background
+0.5, 600
+bg00
+
+0.2, 600
+field00
+
+0.5, 600
+trees00
 
 
 parking
@@ -68,6 +114,8 @@ sgmt03_00.@sgmt03
 4build77r_04.4build77r
 4build77r_02.4build77r
 4build77r_03.4build77r
+newdum1_02.newdum1
+
 road13
 road13_
 
@@ -228,6 +276,9 @@ schody1_12.Box02
 placka1_06.Object01
 xv spina2_01.!!flek17
 
+0.5, 100
+rect01
+
 1, 80
 9trbmodr_00.Cylinder01
 
@@ -325,6 +376,11 @@ road06b
 road06c
 road06
 road06d
+
+0.5, 200
+rect02
+rect06
+rect05
 
 s_maly_22.Object01
 s_maly_23.Object01
@@ -750,6 +806,13 @@ kominy01_24.Box08
 kominy02_11.Box08
 kominy02_10.Box08
 
+%bank1_00.Banka
+4build168_00.4build168
+4build152_01.4build152
+4build153_00.4build153
+4build152_00.4build152
+4build40_00.4build40
+
 
 side streets
 10, 100
@@ -1008,11 +1071,17 @@ newdum7_01.newdum7
 4build70_01.4build70
 k_dum02_04.k_dum02
 k_dum02_03.k_dum02
+k_dum02_06.k_dum02
+k_dum02_05.k_dum02
+
 cross01
 road03b
 road03
 road04b
 road04
+
+0.5, 200
+rect04
 
 
 post parking
@@ -1344,6 +1413,16 @@ xv spina3_16.Rectangle72
 kominy01_23.Box08
 kominy01_22.Box08
 
+4build168_01.4build168
+4build168_02.4build168
+9dum1_00.Mesh01
+9dum2_00.Object01
+sgmt05_01.@sgmt05
+%posta_00.Mesh05
+
+road12
+road12_
+
 100, 100
 xsvetlolof 02_02.zarovka
 
@@ -1443,6 +1522,33 @@ kominy01_17.Box08
 kominy01_18.Box08
 goodyear02_00.Box01
 
+sgmt05_00.@sgmt05
+4build27_00.Mesh01
+4build143_00.4build143
+4build29_00.4build29
+4build29_01.4build29
+4build13_00.4build13
+@tov03_00.tov02
+sgmt10_02.@sgmt10
+sgmt08_01.@sgmt08
+@tov03_01.tov02
+placka1_04.Object01
+4build163_00.4build163
+4oldpodjezd_01.Object01
+4build81b_00.4build81
+4build70_00.4build70
+newdum7_00.newdum7
+4build79_00.4build79
+%hotelv3_01.hotel perr
+%hotelv4_00.hotel perr
+%hotelv3_00.hotel perr
+
+road01b
+road01
+
+0.5, 200
+rect03
+
 
 main cross side
 5, 100
@@ -1488,7 +1594,21 @@ schody1_22.Box02
 schody1_21.Box02
 @prist04_03.Box05
 lamp01o_08.stozar
+@bouda05_00.Box01
+sgmt10_00.@sgmt10
+4tov1c_01.Box03
+4tov1c_00.Box03
+4build109_02.4build109
+4build109_01.4build109
+9silo_02.Cylinder03
+9silo_03.Cylinder03
+9silo_04.Cylinder03
+4build109_03.4build109
 
+cross00
+
+0.5, 100
+rect01b
 
 10, 100
 drvrat01o_02.Object02
@@ -1536,6 +1656,98 @@ popel01_61.popel01
 kos01_06.odpadky01
 xkanal 1_03.Box01
 9lamphl on_15.Line38
+
+
+city behind river
+5, 100
+kominy02_17.Box08
+kominy02_18.Box08
+kominy02_16.Box08
+kominy02_15.Box08
+trolley01
+lamp01o_22.stozar
+lamp01o_21.stozar
+lamp01o_20.stozar
+lamp01o_19.stozar
+lamp01o_18.stozar
+lamp01o_17.stozar
+lamp01o_16.stozar
+lamp01o_15.stozar
+lamp01o_14.stozar
+lamp01o_13.stozar
+lamp01o_12.stozar
+lamp01o_11.stozar
+
+road07b
+pavement06_
+pavement07_
+
+2, 100
+road07c
+road07
+
+10, 100
+railing06_
+railing05_
+
+1, 100
+4build128_01.4build128
+4mrak03_00.4mrak03
+@dum22_00.dum22
+4build122_01.4build122
+4build125_01.4build125
+4build138_00.4build138
+woolwooth_00.woolworth
+4mrak01v_00.4mrak01
+4build43_02.4build43
+4build43_01.4build43
+4old071_00.Object01
+4build56_02.Object01
+4build163_01.4build163
+4build153_02.4build153
+4build153_01.4build153
+tbuild071_03.4build81
+tbuild071_00.4build81
+tbuild07_02.tbuild07
+tbuild07_03.tbuild07
+4build55z_00.4build55z
+4build55z_01.4build55z
+4build54_00.4build54
+4build13_01.4build13
+4build115b_01.4build113
+4build115b_00.4build113
+%radovk30_00.Mesh01
+tbuild071_01.4build81
+tbuild071_02.4build81
+4build38_02.4build38
+4build38_03.4build38
+4build81d_00.4build82
+4build63_02.4build63
+@tov01_00.tov02
+9plant_01.plant
+4tov1_02.Box01
+9plant_00.plant
+9kom_00.kom
+4tov1d_02.Box01
+4komin_03.Cylinder01
+@tov02_03.Object03
+4tov1d_01.Box01
+@tov02_02.Object03
+vjezdtov_03.Mesh01
+4komin_04.Cylinder01
+vjezdtov_04.Mesh01
+4tov1_03.Box01
+4komin_00.Cylinder01
+4komin_02.Cylinder01
+4komin_01.Cylinder01
+@tov01_01.tov02
+@tov02_00.Object03
+@tov02_01.Object03
+4build56_03.Object01
+4build163_02.4build163
+
+0.5, 100
+rect03b
 
 
 restaurants
@@ -1873,6 +2085,30 @@ lamp01o_07.stozar
 kominy01_19.Box08
 kominy01_20.Box08
 kominy01_21.Box08
+4build40_01.4build40
+4build110_00.4build110
+4build110_01.4build110
+4build46_00.Box02
+4build132_00.4build132
+4build38z_00.4build38z
+tbuild07_00.tbuild07
+4oldpodjezd_00.Object01
+4build151_00.Mesh01
+4build49_00.4build150
+4build49_01.4build150
+
+road00c
+road00
+road00b
+pavement01b
+railing01
+pavement01c
+stairs04
+pavement01
+stairs03
+
+0.5, 100
+rect01
 
 
 market
@@ -2084,6 +2320,15 @@ kominy02_08.Box08
 kominy01_08.Box08
 kominy01_09.Box08
 kominy01_10.Box08
+newdum6_00.newdum6
+newdum6_01.newdum6
+4build80_00.Line02
+4build77r_00.4build77r
+4build77r_01.4build77r
+4build166_00.Object02
+4build109_00.4build109
+
+4build166_01.Object02
 
 
 factory front right
@@ -2174,6 +2419,10 @@ hardware_00.Box01
 @prist04_02.Box05
 @bouda01_01.bouda01
 lamp01o_49.stozar
+4tov1d_00.Box01
+
+pavement04
+railing03
 
 
 factory front left
@@ -2185,6 +2434,20 @@ factory front left
 @HQvod01_00.vodojem
 @prist05_06.Box06
 plotdrev4_03.Box01
+4tov1e_00.Box01
+4tov1b_00.Box05
+4komin_06.Cylinder01
+4komin_05.Cylinder01
+@HQvod01_00.vodojem
+4tov1_01.Box01
+
+road09b
+road10
+pavement05
+road11b
+railing04
+road09c
+road09
 
 10, 100
 xbarel 1_47.barel 1
@@ -2363,6 +2626,25 @@ xv spina2_08.!!flek17
 xv spina2_09.!!flek17
 lamp01o_50.stozar
 xv spina3_19.Rectangle72
+4tov1_00.Box01
+vjezdtov_00.Mesh01
+vjezdtov_00.Mesh02
+vjezdtov_00.Mesh03
+vjezdtov_01.Mesh01
+vjezdtov_02.Mesh01
+vjezdtov_01.Mesh03
+vjezdtov_01.Mesh02
+vjezdtov_02.Mesh02
+vjezdtov_02.Mesh03
+4komin_07.Cylinder01
+9kom_01.kom
+4komin_08.Cylinder01
+9silo_00.Cylinder03
+9silo_01.Cylinder03
+
+road11
+road11____
+road11c
 
 10, 100
 xleseni_13.Box01
@@ -2607,6 +2889,59 @@ xzaclona 3_22.Box02
 xv spina3_03.Rectangle72
 xv spina2_02.!!flek17
 xv spina3_05.Rectangle72
+4old01_00.4old01
+@bouda05_01.Box01
+9dumch1_01.Box01
+9dumch1_00.Box01
+sgmt03_03.@sgmt03
+placka2_00.4build70
+4old04_02.4old04
+placka1_05.Object01
+placka1_02.Object01
+@bouda05_03.Box01
+@prist01_00.Box02
+@bouda05_02.Box01
+sgmt05_02.@sgmt05
+k_dum02_00.k_dum02
+k_dum02_02.k_dum02
+sgmt03_02.@sgmt03
+@bouda06_01.Box02
+@prist05_02.Box06
+@prist04_00.Box05
+@bouda01_00.bouda01
+@prist05_01.Box06
+k_dum02_01.k_dum02
+stena6_00.Object01
+4old04_01.4old04
+4old04_00.4old04
+4old01_02.4old01
+4old01_01.4old01
+stena6_01.Object01
+placka1_00.Object01
+placka1_01.Object01
+k_dum02_08.k_dum02
+k_dum02_07.k_dum02
+@bouda02_01.Box01
+@prist05_00.Box06
+sgmt08_00.@sgmt08
+sgmt10_01.@sgmt10
+9dum4_00.Mesh01
+@prist03_00.Box04
+4pristr03_00.Box01
+@bouda02_00.Box01
+plotdrev4_26.Box01
+@drplot3_35.Box01
+plotdrev4_24.Box01
+@drplot3_33.Box01
+@drplot3_34.Box01
+plotdrev4_25.Box01
+placka1_03.Object01
+
+road14_
+road14
+
+0.5, 200
+rect00
 
 10, 100
 0prad_28.Rectangle02
