@@ -674,6 +674,22 @@ s_barevny_00.Object01
 s_maly_00.Box04
 s_maly_02.Box04
 s_maly_01.Box04
+s_maly_54.Box04
+s_maly_52.Box04
+s_maly_51.Box04
+s_maly_48.Box04
+s_maly_47.Box04
+s_maly_46.Box04
+s_maly_40.Box04
+s_maly_49.Box04
+s_maly_50.Box04
+s_maly_41.Box04
+s_maly_45.Box04
+s_maly_42.Box04
+s_maly_39.Box04
+s_maly_43.Box04
+s_maly_44.Box04
+s_maly_53.Box04
 
 5, 150
 trolley_corner02
@@ -688,6 +704,24 @@ s_maly_21.Object01
 s_velky_02.Object02
 s_maly_03.Object01
 s_maly_18.Object01
+s_maly_52.Object01
+s_maly_51.Object01
+s_maly_54.Object01
+s_maly_48.Object01
+s_maly_47.Object01
+s_maly_46.Object01
+s_maly_40.Object01
+s_maly_50.Object01
+s_maly_49.Object01
+s_maly_45.Object01
+s_maly_41.Object01
+s_maly_44.Object01
+s_maly_42.Object01
+s_maly_39.Object01
+s_maly_43.Object01
+s_maly_53.Object01
+s_maly_03.Object01
+
 cross02
 road08
 rail00
