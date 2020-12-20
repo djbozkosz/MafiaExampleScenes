@@ -28,6 +28,29 @@ Blur:
 		0.2 0.2 0.2
 		0.0 0.2 0.0
 
+
+Bake Lights Setup:
+	Sun:
+		Rotation: 0.0417541, 0.00310279, 0.996377, -0.0740436
+		Color: 1.0, 0.54, 0.38
+		Power: 1.2
+	
+	Ambient:
+		Color: 0.56, 0.63, 0.66
+		Power: 1.0
+
+
+Gameplay Lights Setup:
+	Sun:
+		Rotation: 0.707107, -0.707107, 0.0, 0.0
+		Color: 0.56, 0.63, 0.66
+		Power: 0.4
+	
+	Ambient:
+		Color: 0.56, 0.63, 0.66
+		Power: 0.8
+
+
 In following sections:
 	first values is: Texels per Unit (unit is one meter)
 	second value is: Clip radius (all opaque and keyed triangles in scene in this range will contribute into lightmap generation)
@@ -54,6 +77,9 @@ field00
 
 0.5, 600
 trees00
+
+
+all city bushes and trees are using indirect multiplier 1.5
 
 
 parking
@@ -690,6 +716,19 @@ s_maly_39.Box04
 s_maly_43.Box04
 s_maly_44.Box04
 s_maly_53.Box04
+s_maly_56.Box04
+s_maly_55.Box04
+s_maly_67.Box04
+s_maly_64.Box04
+s_maly_62.Box04
+s_maly_66.Box04
+s_maly_60.Box04
+s_maly_59.Box04
+s_maly_61.Box04
+s_maly_65.Box04
+s_maly_58.Box04
+s_maly_57.Box04
+s_maly_63.Box04
 
 5, 150
 trolley_corner02
@@ -721,6 +760,19 @@ s_maly_39.Object01
 s_maly_43.Object01
 s_maly_53.Object01
 s_maly_03.Object01
+s_maly_56.Object01
+s_maly_55.Object01
+s_maly_67.Object01
+s_maly_62.Object01
+s_maly_64.Object01
+s_maly_66.Object01
+s_maly_60.Object01
+s_maly_59.Object01
+s_maly_61.Object01
+s_maly_65.Object01
+s_maly_58.Object01
+s_maly_57.Object01
+s_maly_63.Object01
 
 cross02
 road08
@@ -1008,6 +1060,15 @@ xsvetlo 03 on_13.Box01
 xsvetlo 03 on_13.Box02
 xsvetlo 03 on_14.Box01
 xsvetlo 03 on_14.Box02
+s_maly_68.Box04
+s_maly_76.Box04
+s_maly_72.Box04
+s_maly_73.Box04
+s_maly_74.Box04
+s_maly_69.Box04
+s_maly_75.Box04
+s_maly_70.Box04
+s_maly_71.Box04
 
 5, 100
 9mark3_07.Rectangle01
@@ -1107,6 +1168,15 @@ k_dum02_04.k_dum02
 k_dum02_03.k_dum02
 k_dum02_06.k_dum02
 k_dum02_05.k_dum02
+s_maly_68.Object01
+s_maly_76.Object01
+s_maly_72.Object01
+s_maly_73.Object01
+s_maly_74.Object01
+s_maly_69.Object01
+s_maly_75.Object01
+s_maly_70.Object01
+s_maly_71.Object01
 
 cross01
 road03b
@@ -2675,6 +2745,16 @@ vjezdtov_02.Mesh03
 4komin_08.Cylinder01
 9silo_00.Cylinder03
 9silo_01.Cylinder03
+s_maly_82.Object01
+s_maly_83.Object01
+s_maly_84.Object01
+s_maly_79.Object01
+s_maly_80.Object01
+s_maly_81.Object01
+s_maly_78.Object01
+s_maly_86.Object01
+s_maly_85.Object01
+s_maly_87.Object01
 
 road11
 road11____
@@ -2826,6 +2906,17 @@ leseni_03.Box03
 leseni_03.Box16
 leseni_03.Box12
 leseni_03.Box14
+xclun_00.Line07
+s_maly_81.Box04
+s_maly_80.Box04
+s_maly_79.Box04
+s_maly_83.Box04
+s_maly_84.Box04
+s_maly_82.Box04
+s_maly_78.Box04
+s_maly_86.Box04
+s_maly_85.Box04
+s_maly_87.Box04
 
 0.2, 100
 9boxy1b_00.Box01
@@ -2970,6 +3061,7 @@ plotdrev4_24.Box01
 @drplot3_34.Box01
 plotdrev4_25.Box01
 placka1_03.Object01
+s_maly_77.Object01
 
 road14_
 road14
@@ -3458,6 +3550,7 @@ s_maly_37.Box04
 s_maly_36.Box04
 s_maly_38.Box04
 bedna01_05.Box01
+s_maly_77.Box04
 
 1, 100
 9trbmodr2_03.Object01
