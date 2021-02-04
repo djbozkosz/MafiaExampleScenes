@@ -20,7 +20,7 @@ Indirect Lighting (Global Illumination):
 	Ambient: True
 	Multiplier: 1.0
 	Bounces: 2.0
-	Quality: 2.0 (3.0 for all road and pavement meshes)
+	Quality: 4.0
 Blur:
 	Use: True
 	Values:
@@ -69,14 +69,12 @@ grass02_
 grass03_
 
 background
-0.5, 600
+0.5, 1000
 bg00
-
-0.2, 600
-field00
-
-0.5, 600
 trees00
+
+no blur
+field00
 
 
 all city bushes and trees are using indirect multiplier 1.5
@@ -101,13 +99,6 @@ plotdrev4_plak_04.Rectangle0
 @prist05_05.Box06
 @prist05_04.Box06
 @prist04_01.Box05
-xprkna 3_01.Box21
-xzaclona 6_02.Box02
-xzaclona 6_01.Box02
-xzaclona 6_00.Box02
-xzaclona 3_01.Box02
-xzaclona 3_00.Box02
-xzaclona 3_02.Box02
 xv spina3_00.Rectangle72
 xv spina2_00.!!flek17
 xv spina1_00.!!!!bordel34
@@ -117,7 +108,6 @@ zabradl_02.Box01
 zabradl_01.Box01
 zabradl_00.Box01
 vylep01_00.vylep01
-0prad_01.Rectangle02
 schody1_03.Box02
 schody1_04.Box02
 schody1_05.Box02
@@ -142,6 +132,12 @@ sgmt03_00.@sgmt03
 4build77r_03.4build77r
 newdum1_02.newdum1
 
+10, 100, indir mul 1.2
+0prad_00.Rectangle02
+
+10, 100, indir mul 2.0, bounces 3
+0prad_01.Rectangle02
+
 road13
 road13_
 
@@ -151,6 +147,12 @@ xv kachle1_11.Box06
 xv kachle1_08.Box06
 xv kachle1_09.Box06
 xv kachle1_10.Box06
+xzaclona 6_02.Box02
+xzaclona 6_01.Box02
+xzaclona 6_00.Box02
+xzaclona 3_01.Box02
+xzaclona 3_00.Box02
+xzaclona 3_02.Box02
 
 0.1, 150
 0rek37_00.Rectangle02
@@ -163,6 +165,7 @@ xsvetlolof 02_00.zarovka
 xsvetlolof 02_01.zarovka
 
 10, 150
+xprkna 3_01.Box21
 popel01_01.popel01
 popel01_00.popel01
 popel01_02.popel01
@@ -172,8 +175,6 @@ bedna00_00.Box01
 xbedna 16_08.Box02
 xbedna 16_09.Box02
 xbedna 16_07.Box02
-9ker1_04.Object01
-9ker1_00.Object01
 dopravni5B_00.stozar
 kos01_00.odpadky01
 PHbox01_00.PHbox01
@@ -206,7 +207,6 @@ xbarel 4_01.barel 1
 xbarel 2_06.barel 1
 xsvetlolof 02_00.Cylinder01
 xplechovka7_06.Box01
-9ker1_01.Object01
 xleseni_03.Box01
 xbedna 04_02.bedna 04
 xplechovka7_07.Box01
@@ -244,6 +244,10 @@ vetrak01_00.Box01
 xkanal 1_13.Box01
 xkanal 1_12.Box01
 9lamphl on_45.Line38
+
+9ker1_04.Object01
+9ker1_00.Object01
+9ker1_01.Object01
 
 5, 100
 kominy02_03.Box08
@@ -283,13 +287,7 @@ plotdrev4_22.Box01
 plotdrev4_23.Box01
 @drplot3_32.Box01
 @drplot3_31.Box01
-xprkna 3_02.Box21
 @prist05_03.Box06
-xzaclona 3_03.Box02
-xzaclona 3_14.Box02
-xzaclona 3_13.Box02
-xzaclona 3_11.Box02
-xzaclona 3_12.Box02
 plvrat01_01.Mesh02
 9konstr3_02.Cylinder01
 9konstr4b_00.Box04
@@ -302,13 +300,14 @@ schody1_12.Box02
 placka1_06.Object01
 xv spina2_01.!!flek17
 
-0.5, 100
+0.5, 200
 rect01
 
 1, 80
 9trbmodr_00.Cylinder01
 
 10, 80
+xprkna 3_02.Box21
 leseni_00.Box01
 leseni_00.Box02
 leseni_00.Box03
@@ -347,12 +346,10 @@ xbarel 4_03.barel 1
 xbedna 16_06.Box02
 xplechovka2_02.Cylinder02
 xbarel 2_07.barel 1
-9ker1_03.Object01
 9konstr3b_02.Object01
 9konstr3b_01.Object01
 9konstr3b_00.Object01
 9konstr3c_00.Box07
-9ker1_02.Object01
 xzebrik_01.Box02
 bedn_s4_03.Box02
 bedn_s4_02.Box02
@@ -371,14 +368,23 @@ pytle01_11.pyt01
 xvozik_10.Box02
 9konstr3c_06.Box07
 
+9ker1_03.Object01
+9ker1_02.Object01
+
+20, 80
+xzaclona 3_03.Box02
+xzaclona 3_14.Box02
+xzaclona 3_13.Box02
+xzaclona 3_11.Box02
+xzaclona 3_12.Box02
+
 
 skyscrapers
-5, 150
-newdum1_01.newdum1
-4build63_00.4build63
-4build95_00.4build95
-4build108r_00.Box01
-4build93_00.Object01
+1, 150
+4mrak02v_00.Box01
+4build138_01.4build138
+
+2, 150, no blur
 4build135_00.4build136
 4build135_00.4build135_
 4build125_00.4build125
@@ -387,13 +393,18 @@ newdum1_01.newdum1
 4build131_01.4build131
 4build131_00.4build131
 4build125_02.4build125
-4build138_01.4build138
-4mrak02v_00.Box01
 4build131_02.4build131
 4mrak01v_01.4mrak01
 4build128_00.4build128
 4build91_01.Box01
 4build91_00.Box01
+
+5, 150
+newdum1_01.newdum1
+4build63_00.4build63
+4build95_00.4build95
+4build108r_00.Box01
+4build93_00.Object01
 4build122_00.4build122
 3rad10_00.Line04
 %kino_00.Object01
@@ -408,13 +419,13 @@ rect02
 rect06
 rect05
 
+5, 100
 s_maly_22.Object01
 s_maly_23.Object01
 s_maly_24.Object01
 s_maly_25.Object01
 s_maly_33.Object01
 s_maly_34.Object01
-s_maly_35.Object01
 s_maly_29.Object01
 s_maly_28.Object01
 s_maly_27.Object01
@@ -422,10 +433,14 @@ s_maly_26.Object01
 s_maly_32.Object01
 s_maly_31.Object01
 s_maly_30.Object01
+
 hires02_01.Box01
 beer02_04.Box01
 maclac02_04.Box01
 bigboy02_03.Box01
+
+5, 150
+s_maly_35.Object01
 
 10, 100
 xsvetlo 03 on_36.Box02
@@ -531,6 +546,9 @@ lamp01o_37.stozar
 xlavicka_44.@lav01
 xkvet02_20.Line17
 xlavicka_45.@lav01
+xkanal 1_18.Box01
+xkanal 1_19.Box01
+kominy02_14.Box08
 s_maly_22.Box04
 s_maly_23.Box04
 s_maly_24.Box04
@@ -545,9 +563,6 @@ s_maly_26.Box04
 s_maly_32.Box04
 s_maly_31.Box04
 s_maly_30.Box04
-xkanal 1_18.Box01
-xkanal 1_19.Box01
-kominy02_14.Box08
 
 10, 150
 xbedna 15_52.Box02
@@ -565,6 +580,9 @@ xkanal 1_00.Box01
 
 
 behind cinema
+10, 150
+lamp01o_39.stozar
+
 10, 100
 norton02_01.Box01
 xsvetlo 01 on_10.Cylinder01
@@ -579,7 +597,6 @@ popel01_112.popel01
 popel01_111.popel01
 popel01_113.popel01
 xbedna 04_20.bedna 04
-9ker1_05.Object01
 9lamphl on_44.Line38
 xbedna 15_51.Box02
 xbedna 15_50.Box02
@@ -609,7 +626,6 @@ helada02_03.Box01
 dopravni5B_01.stozar
 bigboy02_02.Box01
 pepsi02_03.Box01
-lamp01o_39.stozar
 bedn_s3_22.Box02
 bedn_s3_21.Box02
 popel01_110.popel01
@@ -625,6 +641,8 @@ xsvetlo 03 on_15.Box01
 9mark3_08.Rectangle01
 9mark1b_02.Line01
 9lamphl on_41.Line38
+
+9ker1_05.Object01
 
 5, 100
 kominy02_00.Box08
@@ -733,6 +751,7 @@ s_maly_63.Box04
 5, 150
 trolley_corner02
 trolley_corner01
+
 s_maly_02.Object01
 s_maly_00.Object01
 s_maly_01.Object01
@@ -886,11 +905,12 @@ bakery02_01.Box01
 9mark3_05.Rectangle01
 pavement02
 railing02
-s_maly_04.Object01
-s_maly_15.Object01
 kominy01_24.Box08
 kominy02_11.Box08
 kominy02_10.Box08
+
+s_maly_04.Object01
+s_maly_15.Object01
 
 %bank1_00.Banka
 4build168_00.4build168
@@ -919,7 +939,6 @@ popel01_97.popel01
 popel01_96.popel01
 xbedna 04_18.bedna 04
 kos01_02.odpadky01
-9ker1_07.Object01
 dopravni8B_00.stozar
 xplechovka7_11.Box01
 xbarel 1_34.barel 1
@@ -983,7 +1002,6 @@ helada02_02.Box01
 dopravni8B_01.stozar
 dopravni9B_01.Cylinder01
 vylep02_01.vylep01
-9ker1_06.Object01
 popel01_06.popel01
 popel01_07.popel01
 bedn_s1_19.bedna 02
@@ -1070,29 +1088,25 @@ s_maly_75.Box04
 s_maly_70.Box04
 s_maly_71.Box04
 
+9ker1_07.Object01
+9ker1_06.Object01
+
+20, 100
+xzaclona 3_17.Box02
+xzaclona 3_16.Box02
+xzaclona 3_15.Box02
+
 5, 100
 9mark3_07.Rectangle01
 9mark3_06.Rectangle01
 bakery02_03.Box01
 maclac02_03.Box01
-s_velky_05.Object02
-s_velky_06.Object02
-s_velky_04.Object02
-s_barevny_01.Object02
 schody1_44.Box02
 schody1_45.Box02
 schody1_46.Box02
-s_velky_08.Object02
-s_velky_09.Object02
-s_velky_01.Object02
 beer02_02.Box01
 hires02_00.Box01
-xzaclona 3_17.Box02
-xzaclona 3_16.Box02
 bigboy02_01.Box01
-s_velky_07.Object02
-s_velky_03.Object02
-xzaclona 3_15.Box02
 schody1_52.Box02
 schody1_51.Box02
 schody1_50.Box02
@@ -1168,6 +1182,7 @@ k_dum02_04.k_dum02
 k_dum02_03.k_dum02
 k_dum02_06.k_dum02
 k_dum02_05.k_dum02
+
 s_maly_68.Object01
 s_maly_76.Object01
 s_maly_72.Object01
@@ -1177,6 +1192,15 @@ s_maly_69.Object01
 s_maly_75.Object01
 s_maly_70.Object01
 s_maly_71.Object01
+s_velky_05.Object02
+s_velky_06.Object02
+s_velky_04.Object02
+s_barevny_01.Object02
+s_velky_08.Object02
+s_velky_09.Object02
+s_velky_01.Object02
+s_velky_07.Object02
+s_velky_03.Object02
 
 cross01
 road03b
@@ -1224,7 +1248,6 @@ popel01_87.popel01
 bedna00_13.Box01
 bedna00_14.Box01
 bedna00_12.Box01
-9ker1_08.Object01
 popel01_09.popel01
 popel01_11.popel01
 popel01_10.popel01
@@ -1241,8 +1264,6 @@ bedn_s3_07.Box02
 bedn_s3_08.Box02
 xplechovka7_02.Box01
 9petrolejka_00.Line01
-9ker1_09.Object01
-9ker1_10.Object01
 xprkna 3_09.Box21
 9zebriny_03.zebriny
 xbarel 1_28.barel 1
@@ -1328,7 +1349,6 @@ xbarel 1_04.barel 1
 xbarel 1_05.barel 1
 xbedna 04_17.bedna 04
 xplechovka1_08.Cylinder02
-9ker1_12.Object01
 xbedna 02_06.bedna 02
 xbedna 02_06.Object02
 xbedna 02_06.Object01
@@ -1388,7 +1408,6 @@ bedn_s3_13.Box02
 bedn_s3_14.Box02
 paleta01_21.paleta01
 paleta01_20.paleta01
-9ker1_13.Object01
 paleta01_24.paleta01
 paleta01_22.paleta01
 xbarel 2_13.barel 1
@@ -1400,7 +1419,6 @@ xbarel 4_12.barel 1
 popel01_86.popel01
 popel01_85.popel01
 popel01_84.popel01
-9ker1_11.Object01
 xbedna 04_10.bedna 04
 paleta01_10.paleta01
 xbedna 04_11.bedna 04
@@ -1472,6 +1490,19 @@ zplot13i_01.Line03
 zplot01_03.Line01
 zplot13i_02.Line03
 
+9ker1_08.Object01
+9ker1_09.Object01
+9ker1_10.Object01
+9ker1_12.Object01
+9ker1_13.Object01
+9ker1_11.Object01
+
+20, 100
+xzaclona 3_10.Box02
+xzaclona 3_09.Box02
+xzaclona 5_01.Box02
+xzaclona 5_00.Box02
+
 5, 100
 schody1_43.Box02
 schody1_42.Box02
@@ -1489,16 +1520,9 @@ plotdrev4_00.Box01
 @drplot3_05.Box01
 pltBrec1_01.Rectangle0
 pltBrec1_02.Rectangle0
-s_velky_00.Object02
 pltBrec1_00.Rectangle0
-s_maly_17.Object01
-s_maly_16.Object01
-xzaclona 3_10.Box02
-xzaclona 3_09.Box02
 9prkn5_05.Box10
 s_velky_00.Box07
-xzaclona 5_01.Box02
-xzaclona 5_00.Box02
 @prist05_07.Box06
 schody1_32.Box02
 schody1_33.Box02
@@ -1516,6 +1540,10 @@ xv spina3_17.Rectangle72
 xv spina3_16.Rectangle72
 kominy01_23.Box08
 kominy01_22.Box08
+
+s_maly_17.Object01
+s_maly_16.Object01
+s_velky_00.Object02
 
 4build168_01.4build168
 4build168_02.4build168
@@ -1589,7 +1617,6 @@ zabradl_22.Box01
 xbarel 1_25.barel 1
 popel01_73.popel01
 popel01_16.popel01
-9ker1_14.Object01
 look02_03.Box01
 bedna01_30.Box01
 bedna01_29.Box01
@@ -1597,6 +1624,8 @@ bedna01_31.Box01
 popel01_83.popel01
 popel01_82.popel01
 9lamphl on_18.Line38
+
+9ker1_14.Object01
 
 5, 100
 schody1_28.Box02
@@ -1668,51 +1697,65 @@ lamp01o_14.stozar
 lamp01o_13.stozar
 lamp01o_12.stozar
 lamp01o_11.stozar
-lamp01o_10.stozar
 schody1_25.Box02
 schody1_23.Box02
 schody1_24.Box02
 plot06_01.Box03
 @drplot3_46.Box01
-plotdrev4_33.Box01
-@drplot3_42.Box01
-plotdrev4_34.Box01
-@drplot3_43.Box01
-plotdrev4_35.Box01
-@drplot3_44.Box01
+schody1_22.Box02
+schody1_21.Box02
+@prist04_03.Box05
+lamp01o_08.stozar
+4tov1c_01.Box03
+4tov1c_00.Box03
+9silo_02.Cylinder03
+9silo_03.Cylinder03
+9silo_04.Cylinder03
+
+5, 200
 plotdrev4_36.Box01
 @drplot3_45.Box01
+@drplot3_44.Box01
+plotdrev4_35.Box01
+@drplot3_43.Box01
+plotdrev4_34.Box01
+@drplot3_42.Box01
+plotdrev4_33.Box01
+@bouda05_00.Box01
 plotdrev4_27.Box01
 @drplot3_36.Box01
 plotdrev4_28.Box01
 @drplot3_37.Box01
 plotdrev4_29.Box01
 @drplot3_38.Box01
-plotdrev4_30.Box01
 @drplot3_39.Box01
+plotdrev4_30.Box01
 plotdrev4_31.Box01
 @drplot3_40.Box01
 plotdrev4_32.Box01
 @drplot3_41.Box01
-schody1_22.Box02
-schody1_21.Box02
-@prist04_03.Box05
-lamp01o_08.stozar
-@bouda05_00.Box01
+lamp01o_10.stozar
 sgmt10_00.@sgmt10
-4tov1c_01.Box03
-4tov1c_00.Box03
-4build109_02.4build109
 4build109_01.4build109
-9silo_02.Cylinder03
-9silo_03.Cylinder03
-9silo_04.Cylinder03
+
+5, 250
+4build109_02.4build109
 4build109_03.4build109
 
+5, 200
 cross00
 
-0.5, 100
+0.5, 250
 rect01b
+
+10, 200
+xbarel 1_37.barel 1
+xbarel 1_36.barel 1
+popel01_17.popel01
+popel01_18.popel01
+plvrat01_02.Mesh02
+plvrat01_02.vrata01
+xbarel 1_06.barel 1
 
 10, 100
 drvrat01o_02.Object02
@@ -1724,13 +1767,6 @@ bedna02_10.Box01
 bedna02_11.Box01
 popel01_71.popel01
 popel01_72.popel01
-xbarel 1_37.barel 1
-xbarel 1_36.barel 1
-plvrat01_02.Mesh02
-popel01_17.popel01
-popel01_18.popel01
-plvrat01_02.vrata01
-xbarel 1_06.barel 1
 paleta01_06.paleta01
 xplechovka2_06.Cylinder02
 xplechovka2_05.Cylinder02
@@ -1758,8 +1794,10 @@ popel01_60.popel01
 popel01_62.popel01
 popel01_61.popel01
 kos01_06.odpadky01
-xkanal 1_03.Box01
 9lamphl on_15.Line38
+
+5, 200
+xkanal 1_03.Box01
 
 
 city behind river
@@ -1782,11 +1820,13 @@ lamp01o_13.stozar
 lamp01o_12.stozar
 lamp01o_11.stozar
 
-road07b
 pavement06_
 pavement07_
 
-2, 100
+5, 200
+road07b
+
+2, 200
 road07c
 road07
 
@@ -1850,7 +1890,7 @@ vjezdtov_04.Mesh01
 4build56_03.Object01
 4build163_02.4build163
 
-0.5, 100
+0.5, 500
 rect03b
 
 
@@ -2162,28 +2202,18 @@ xsvetlo 02 on_09.Cylinder01
 
 5, 100
 beer02_00.Box01
-s_maly_05.Object01
 lamp01o_01.stozar
-s_maly_06.Object01
 9mark3b_01.Rectangle01
 bigboy02_00.Box01
 lamp01o_03.stozar
-s_maly_09.Object01
-s_maly_07.Object01
-s_maly_08.Object01
 9mark3_04.Rectangle01
 9mark3_03.Rectangle01
 9mark3_02.Rectangle01
 orange02_00.Box01
-s_maly_10.Object01
-s_maly_11.Object01
-s_maly_12.Object01
-s_maly_13.Object01
 9plakat_00.Rectangle01
 lamp01o_05.stozar
 parking05_00.Box01
 maclac02_00.Box01
-s_maly_14.Object01
 bakery02_00.Box01
 lamp01o_07.stozar
 kominy01_19.Box08
@@ -2201,9 +2231,18 @@ tbuild07_00.tbuild07
 4build49_00.4build150
 4build49_01.4build150
 
+s_maly_05.Object01
+s_maly_06.Object01
+s_maly_09.Object01
+s_maly_07.Object01
+s_maly_08.Object01
+s_maly_10.Object01
+s_maly_11.Object01
+s_maly_12.Object01
+s_maly_13.Object01
+s_maly_14.Object01
+
 road00c
-road00
-road00b
 pavement01b
 railing01
 pavement01c
@@ -2211,19 +2250,25 @@ stairs04
 pavement01
 stairs03
 
-0.5, 100
+5, 150
+road00b
+
+5, 300
+road00
+
+0.5, 150
 rect01
 
 
 market
-10, 100
+10, 150
 pepsi02_00.Box01
+dopravni9B_00.Cylinder01
 9stan3_00.vzper03
 9stan3_00.Box03
 9stan3_00.Rectangle04
 9stan3_00.Rectangle03
 9stan3_00.Rectangle02
-dopravni9B_00.Cylinder01
 xbedna 15_00.Box02
 xbedna 15_01.Box02
 xbedna 15_02.Box02
@@ -2252,6 +2297,8 @@ look02_00.Box01
 9slunec1_00.Object01
 9slunec1_00.NGon01
 66stn7_00.2
+
+10, 100
 9lamphl on_05.Line38
 66stn3_01.Box11
 kos01_11.odpadky01
@@ -2398,6 +2445,8 @@ leseni2_05.Box01
 xkanal 1_02.Box01
 xkanal 1_01.Box01
 9lamphl on_07.Line38
+
+20, 100
 xzaclona 3_04.Box02
 xzaclona 3_05.Box02
 
@@ -2477,7 +2526,6 @@ xbarel 1_49.barel 1
 xbedna 15_28.Box02
 xbedna 15_29.Box02
 xbedna 15_27.Box02
-9ker1_28.Object01
 xbarel 2_11.barel 1
 xbarel 2_12.barel 1
 xleseni_19.Box01
@@ -2495,6 +2543,8 @@ xbedna 02_09.Object01
 xsvetlo 02 on_06.Cylinder01
 9lamphl on_09.Line38
 9lamphl on_08.Line38
+
+9ker1_28.Object01
 
 5, 100
 xv spina2_06.!!flek17
@@ -2545,13 +2595,21 @@ plotdrev4_03.Box01
 @HQvod01_00.vodojem
 4tov1_01.Box01
 
-road09b
 road10
 pavement05
 road11b
 railing04
 road09c
 road09
+
+5, 150
+road09b
+
+20, 100
+xzaclona 4_00.Box02
+xzaclona 4_01.Box02
+xzaclona 4_02.Box02
+xzaclona 4_03.Box02
 
 10, 100
 xbarel 1_47.barel 1
@@ -2617,13 +2675,14 @@ leseni2_06.Box05
 leseni2_06.Box10
 leseni2_06.Box06
 xbarel 2_10.barel 1
-xzaclona 4_00.Box02
-xzaclona 4_01.Box02
-xzaclona 4_02.Box02
-xzaclona 4_03.Box02
 
 
 factory back
+20, 100
+xzaclona 3_07.Box02
+xzaclona 3_08.Box02
+xzaclona 3_06.Box02
+
 5, 100
 9konstr3_03.Cylinder01
 @bouda02_02.Box01
@@ -2634,9 +2693,6 @@ xkont 1_02.Box01
 xkont 1_00.Box01
 xkont 1_01.Box01
 9prkn5_00.Box10
-xzaclona 3_07.Box02
-xzaclona 3_08.Box02
-xzaclona 3_06.Box02
 9prkn2_00.Box05
 9trubk2_02.Circle04
 9palet1_00.Box01
@@ -2745,6 +2801,7 @@ vjezdtov_02.Mesh03
 4komin_08.Cylinder01
 9silo_00.Cylinder03
 9silo_01.Cylinder03
+
 s_maly_82.Object01
 s_maly_83.Object01
 s_maly_84.Object01
@@ -2758,6 +2815,8 @@ s_maly_87.Object01
 
 road11
 road11____
+
+5, 200
 road11c
 
 10, 100
@@ -2796,7 +2855,6 @@ xbarel 1_41.barel 1
 xbarel 1_11.barel 1
 xbarel 1_12.barel 1
 xbarel 1_10.barel 1
-9ker1_15.Object01
 xbarel 2_01.barel 1
 xplechovka7_04.Box01
 xplechovka7_05.Box01
@@ -2816,7 +2874,6 @@ plvrat01_00.Mesh02
 plvrat01_00.vrata01
 xleseni_12.Box01
 xkybl 1_03.Cylinder01
-9ker1_16.Object01
 xkybl 1_04.Cylinder01
 xplechovka4_06.Cylinder02
 xplechovka4_07.Cylinder02
@@ -2918,6 +2975,9 @@ s_maly_86.Box04
 s_maly_85.Box04
 s_maly_87.Box04
 
+9ker1_15.Object01
+9ker1_16.Object01
+
 0.2, 100
 9boxy1b_00.Box01
 9boxy1d_00.Box06
@@ -2944,6 +3004,23 @@ xv kachle1_12.Box06
 
 
 courtyard
+20, 100
+xzaclona 3_21.Box02
+xzaclona 3_20.Box02
+xzaclona 6_05.Box02
+xzaclona 6_04.Box02
+xzaclona 6_03.Box02
+xzaclona 6_06.Box02
+xzaclona 6_09.Box02
+xzaclona 6_10.Box02
+xzaclona 6_08.Box02
+xzaclona 6_07.Box02
+xzaclona 4_04.Box02
+xzaclona 3_19.Box02
+xzaclona 3_18.Box02
+xzaclona 6_11.Box02
+xzaclona 3_22.Box02
+
 5, 100
 xv spina3_09.Rectangle72
 xv spina3_10.Rectangle72
@@ -2963,19 +3040,11 @@ xv spina3_15.Rectangle72
 xv spina3_04.Rectangle72
 9prkn5_09.Box10
 lamp01o_48.stozar
-xzaclona 3_21.Box02
-xzaclona 3_20.Box02
 9konstr3_04.Cylinder01
 9konstr4_01.Box04
 9konstr3_00.Cylinder01
-xzaclona 6_05.Box02
-xzaclona 6_04.Box02
-xzaclona 6_03.Box02
-xzaclona 6_06.Box02
 @HQvod01_03.vodojem
 xvoda_00.Cylinder01
-xzaclona 6_09.Box02
-xzaclona 6_10.Box02
 schody1_71.Box02
 schody1_72.Box02
 schody1_70.Box02
@@ -2993,24 +3062,13 @@ schody1_02.Box02
 schody1_01.Box02
 schody1_00.Box02
 lamp01o_47.stozar
-s_cerveny_00.Object01
 schody1_65.Box02
 schody1_64.Box02
 9prkn5_08.Box10
 9prkn5_07.Box10
-xzaclona 6_08.Box02
-xzaclona 6_07.Box02
-xzaclona 4_04.Box02
-xzaclona 3_19.Box02
-xzaclona 3_18.Box02
-xzaclona 6_11.Box02
 @bouda02_00.Box01
 9prkn5_06.Box10
-s_maly_36.Object01
-s_maly_38.Object01
-s_maly_37.Object01
 9prkn5_10.Box10
-xzaclona 3_22.Box02
 xv spina3_03.Rectangle72
 xv spina2_02.!!flek17
 xv spina3_05.Rectangle72
@@ -3061,6 +3119,11 @@ plotdrev4_24.Box01
 @drplot3_34.Box01
 plotdrev4_25.Box01
 placka1_03.Object01
+
+s_cerveny_00.Object01
+s_maly_36.Object01
+s_maly_38.Object01
+s_maly_37.Object01
 s_maly_77.Object01
 
 road14_
@@ -3088,14 +3151,12 @@ xplechovka3_19.Cylinder02
 xbarel 1_67.barel 1
 xleseni_33.Box01
 bedn_s4_21.Box02
-9ker1_17.Object01
 popel01_32.popel01
 sud01_12.sud01
 sud01_13.sud01
 bedn_s1_38.bedna 02
 xbedna 04_31.bedna 04
 xbedna 02_13.bedna 02
-0prad_32.Rectangle02
 xbedna 15_70.Box02
 xplechovka8_14.Box01
 xplechovka3_18.Cylinder02
@@ -3111,7 +3172,6 @@ pytle01_09.pyt01
 bedna01_51.Box01
 xplechovka1_29.Cylinder02
 xbedna 16_40.Box02
-0prad_10.Rectangle02
 0prad_31.Rectangle02
 xsud 01_38.Cylinder01
 xprkna 3_14.Box21
@@ -3159,7 +3219,6 @@ xleseni_34.Box01
 popel01_139.popel01
 popel01_137.popel01
 popel01_138.popel01
-0prad_30.Rectangle02
 popel01_135.popel01
 popel01_136.popel01
 xplechovka3_20.Cylinder02
@@ -3185,7 +3244,6 @@ xplechovka1_25.Cylinder02
 xbedna 15_72.Box02
 xbarel 2_02.barel 1
 xsvetlo 02 on_07.Cylinder01
-9ker1_18.Object01
 popel01_31.popel01
 popel01_30.popel01
 xplechovka4_20.Cylinder02
@@ -3205,19 +3263,16 @@ xbedna 16_39.Box02
 bedn_s4_20.Box02
 bedn_s4_19.Box02
 xkybl 2_05.Cylinder01
-9ker1_30.Object01
 xbarel 1_66.barel 1
 xplechovka7_16.Box01
 xbedna 02_11.bedna 02
 xbedna 02_12.Object01
 xbedna 02_12.Object02
 xbedna 02_12.bedna 02
-9ker1_19.Object01
 xbarel 4_20.barel 1
 xbedna 02_11.Object02
 xbedna 02_11.Object01
 popel01_126.popel01
-0prad_20.Rectangle02
 xvozik_00.Box02
 xvozik_00.Box01
 sud01_15.sud01
@@ -3238,7 +3293,6 @@ xplechovka5_16.Box01
 bedna02_24.Box01
 xbedna 15_59.Box02
 xbarel 1_09.barel 1
-9ker1_21.Object01
 xbedna 02_15.bedna 02
 xbedna 02_15.Object02
 xbedna 02_15.Object01
@@ -3254,7 +3308,6 @@ xplechovka4_16.Cylinder02
 paleta01_34.paleta01
 paleta01_33.paleta01
 0prad_18.Rectangle02
-0prad_19.Rectangle02
 xplechovka4_18.Cylinder02
 xplechovka4_17.Cylinder02
 xbedna 14_46.Box02
@@ -3275,7 +3328,6 @@ xbarel 1_65.barel 1
 bedn_s4_18.Box02
 xbarel 1_64.barel 1
 xsvetlo 02 on_10.Cylinder01
-9ker1_20.Object01
 popel01_123.popel01
 xprkna 3_13.Box21
 xprkna 3_12.Box21
@@ -3320,7 +3372,6 @@ xsud 01_35.Cylinder01
 xbedna 14_41.Box02
 popel01_120.popel01
 popel01_119.popel01
-0prad_16.Rectangle02
 0prad_17.Rectangle02
 xleseni_30.Box01
 xbarel 2_03.barel 1
@@ -3352,8 +3403,6 @@ xbarel 1_54.barel 1
 xplechovka3_12.Cylinder02
 bedna01_49.Box01
 xbedna 04_24.bedna 04
-0prad_27.Rectangle02
-9ker1_27.Object01
 popel01_25.popel01
 popel01_26.popel01
 popel01_142.popel01
@@ -3397,11 +3446,9 @@ osatka01_05.osatka01
 tutbedna_04.Box01
 xkoste 1_05.Box01
 paleta01_32.paleta01
-9ker1_22.Object01
 xbarel 1_58.barel 1
 pytle01_08.pyt01
 popel01_148.popel01
-0prad_22.Rectangle02
 0prad_23.Rectangle02
 0prad_26.Rectangle02
 0prad_11.Rectangle02
@@ -3411,7 +3458,6 @@ xbedna 14_36.Box02
 xbedna 06_05.Box01
 xx postel_01.Box04
 xx postel_00.Box04
-0prad_15.Rectangle02
 xbedna 02_19.bedna 02
 bedna01_45.Box01
 bedn_s4_14.Box02
@@ -3422,7 +3468,6 @@ bedn_s1_26.bedna 02
 popel01_150.popel01
 xplechovka2_11.Cylinder02
 popel01_149.popel01
-9ker1_26.Object01
 xbedna 02_19.Object02
 xbedna 02_19.Object01
 popel01_153.popel01
@@ -3432,7 +3477,6 @@ bedna01_47.Box01
 xplechovka1_18.Cylinder02
 xbarel 1_59.barel 1
 xbarel 1_60.barel 1
-9ker1_29.Object01
 piskoviste_00.Box01
 piskoviste_00.Plane01
 xkanal 1_15.Box01
@@ -3451,7 +3495,6 @@ bedn_s1_28.bedna 02
 xplechovka1_24.Cylinder02
 xbedna 14_39.Box02
 xbedna 14_40.Box02
-9ker1_23.Object01
 xplechovka8_11.Box01
 xplechovka5_14.Box01
 xbarel 2_04.barel 1
@@ -3471,10 +3514,8 @@ xbedna 15_55.Box02
 xbarel 1_62.barel 1
 xbarel 1_61.barel 1
 0prad_29.Rectangle02
-0prad_13.Rectangle02
 0prad_14.Rectangle02
 xbedna 14_38.Box02
-0prad_24.Rectangle02
 4pristr02_00.Box01
 4pristr02_01.Box01
 4pristr01_00.Box01
@@ -3518,12 +3559,10 @@ xbedna 02_16.Object02
 xbedna 02_16.Object01
 xbedna 02_16.bedna 02
 xsud 01_33.Cylinder01
-9ker1_25.Object01
 xplechovka3_15.Cylinder02
 xplechovka3_16.Cylinder02
 xbedna 14_37.Box02
 popel01_157.popel01
-9ker1_24.Object01
 popel01_156.popel01
 xsud 01_32.Cylinder01
 xsud 01_31.Cylinder01
@@ -3552,6 +3591,40 @@ s_maly_38.Box04
 bedna01_05.Box01
 s_maly_77.Box04
 
+9ker1_17.Object01
+9ker1_18.Object01
+9ker1_30.Object01
+9ker1_19.Object01
+9ker1_21.Object01
+9ker1_20.Object01
+9ker1_27.Object01
+9ker1_22.Object01
+9ker1_26.Object01
+9ker1_29.Object01
+9ker1_23.Object01
+9ker1_25.Object01
+9ker1_24.Object01
+
+10, 100, indir mul 1.2
+0prad_20.Rectangle02
+
+10, 100, indir mul 1.5, bounces 3
+0prad_19.Rectangle02
+0prad_27.Rectangle02
+0prad_22.Rectangle02
+0prad_26.Rectangle02
+0prad_15.Rectangle02
+0prad_24.Rectangle02
+
+10, 100, indir mul 2.0, bounces 3
+0prad_32.Rectangle02
+0prad_30.Rectangle02
+0prad_10.Rectangle02
+0prad_16.Rectangle02
+
+10, 100, indir mul 3.0, bounces 3
+0prad_13.Rectangle02
+
 1, 100
 9trbmodr2_03.Object01
 9trbmodr_02.Cylinder01
@@ -3575,7 +3648,7 @@ xv kachle1_01.Box06
 
 
 trees
-2, 100, indir mul 1.5
+2, 150, indir mul 1.5
 s_oranz_00.Object01
 s_oranz_01.Object01
 s_oranz_02.Object01
