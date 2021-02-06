@@ -75,9 +75,10 @@ trees00
 
 no blur
 field00
+field00b
 
 
-all city bushes and trees are using indirect multiplier 1.5
+all city foliage are using indirect multiplier 1.5
 
 
 parking
@@ -1207,6 +1208,7 @@ road03b
 road03
 road04b
 road04
+road04c
 
 0.5, 200
 rect04
@@ -1734,9 +1736,17 @@ plotdrev4_31.Box01
 @drplot3_40.Box01
 plotdrev4_32.Box01
 @drplot3_41.Box01
+plotdrev4_37.Box01
+@drplot3_47.Box01
 lamp01o_10.stozar
 sgmt10_00.@sgmt10
 4build109_01.4build109
+xkanal 1_03.Box01
+s_maly_88.Box04
+s_oranz_48.Box06
+
+s_maly_88.Object01
+s_oranz_48.Object01
 
 5, 250
 4build109_02.4build109
@@ -1795,9 +1805,6 @@ popel01_62.popel01
 popel01_61.popel01
 kos01_06.odpadky01
 9lamphl on_15.Line38
-
-5, 200
-xkanal 1_03.Box01
 
 
 city behind river
@@ -2818,6 +2825,7 @@ road11____
 
 5, 200
 road11c
+road11d
 
 10, 100
 xleseni_13.Box01
@@ -3133,7 +3141,6 @@ road14
 rect00
 
 10, 100
-0prad_28.Rectangle02
 0prad_21.Rectangle02
 popel01_141.popel01
 popel01_140.popel01
@@ -3608,6 +3615,9 @@ s_maly_77.Box04
 10, 100, indir mul 1.2
 0prad_20.Rectangle02
 
+10, 100, bounces 3
+0prad_28.Rectangle02
+
 10, 100, indir mul 1.5, bounces 3
 0prad_19.Rectangle02
 0prad_27.Rectangle02
@@ -3648,7 +3658,7 @@ xv kachle1_01.Box06
 
 
 trees
-2, 150, indir mul 1.5
+2, 150
 s_oranz_00.Object01
 s_oranz_01.Object01
 s_oranz_02.Object01
