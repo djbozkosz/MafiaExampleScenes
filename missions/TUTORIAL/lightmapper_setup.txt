@@ -69,6 +69,9 @@ grass02_
 grass03_
 
 background
+5, 1000
+trolley01
+
 0.5, 1000
 bg00
 trees00
@@ -1813,7 +1816,6 @@ kominy02_17.Box08
 kominy02_18.Box08
 kominy02_16.Box08
 kominy02_15.Box08
-trolley01
 lamp01o_22.stozar
 lamp01o_21.stozar
 lamp01o_20.stozar
