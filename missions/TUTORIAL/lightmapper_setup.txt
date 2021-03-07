@@ -3130,11 +3130,13 @@ plotdrev4_24.Box01
 plotdrev4_25.Box01
 placka1_03.Object01
 
-s_cerveny_00.Object01
 s_maly_36.Object01
 s_maly_38.Object01
 s_maly_37.Object01
 s_maly_77.Object01
+
+5, 100, indir mul 2.0
+s_cerveny_00.Object01
 
 road14_
 road14
